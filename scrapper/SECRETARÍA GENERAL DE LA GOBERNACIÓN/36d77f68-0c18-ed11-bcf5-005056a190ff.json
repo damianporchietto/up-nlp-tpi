@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/36d77f68-0c18-ed11-bcf5-005056a190ff",
+  "title": "Solicitud de Certificado de Servicios",
+  "description": "Este trámite se realiza para obtener el certificado de servicios, en el cual consta que la persona solicitante trabajó (durante el tiempo que allí se consigna) en la Administración Pública Provincial, en dependencias del Poder Ejecutivo Provincial.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Si la solicitud va a ser realizada por una tercera persona, ésta debe contar con la autorización como representante (que se gestiona a través de CiDi). El trámite debe ingresarse desde E-Trámites a través de una Multinota. Con el objetivo de diligenciarlo de manera ágil, se recomienda consignar la siguiente información. Asunto: “Solicitud de Certificado de Servicios” Contenido: Solicito al Área Gestión Digital y Documental de la Dirección de Asuntos Legajes —Dirección General Técnica y Legal— Secretaría de Capital Humano de la Secretaría General de la Gobernación, que emita el certificado de servicios perteneciente a (consignar nombre, apellido y DNI del interesado/a) en formato digital, correspondiente al período de servicios prestados como agente en la Administración Pública Provincial. Una vez emitida, la documentación será recibida en CiDi a través de “Mis comunicaciones” y podrá visualizarla desde “Mis documentos”."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CiDi Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    }
+  ]
+}

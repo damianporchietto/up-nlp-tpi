@@ -1,0 +1,15 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2dcf4568-f671-eb11-ba32-005056a1885b",
+  "title": "CONSULTAS SUAC MESA DE ENTRADAS",
+  "description": "CONSULTAS VARIAS",
+  "requirements": [
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno. Medios 1. Web exit_to_app Ir al sitio"
+    }
+  ]
+}

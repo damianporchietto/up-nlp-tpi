@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/4912d362-53cb-ee11-bd43-005056a190ff",
+  "title": "VACUNACIÓN FIEBRE AMARILLA",
+  "description": "Turno para la colocación de la Dosis Única de Vacuna contra la Fiebre Amarilla",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Una vez obtenido el turno, la aplicación de las dosis se hace: en la sede del Hospital San Roque Viejo, área Inmunizaciones: Rosario de Santa Fe 374, Córdoba, Tel. 0351 4342437 o en la sede del Hospital Rawson, Bajada Pucará 2025, Córdoba, Tel. 0351 4348756"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIDI - Tener cuenta de Ciudadano Digital, nivel 1 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original DNI (original) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno. Medios 1. Web exit_to_app Ir al sitio"
+    }
+  ]
+}

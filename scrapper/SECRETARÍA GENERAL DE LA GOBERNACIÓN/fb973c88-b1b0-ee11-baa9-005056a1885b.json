@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb973c88-b1b0-ee11-baa9-005056a1885b",
+  "title": "ASIGNACIÓN POR NACIMIENTO Y ALTA DE PAGO SALARIO FAMILIAR",
+  "description": "Solicitud de pago de una suma de dinero por el nacimiento de un hijo del agente y de la asignación familiar por hijo que se abonará en el mes que se acredite tal hecho ante el empleador (NO se abona retroactivamente).Es necesario presentar la documentación respaldatoria requerida por la Unidad de Recursos Humanos correspondiente. Dirigido a todo agente que desempeñe funciones dentro del ámbito de la Administración Pública Provincial. ¿Cuándo es necesario realizarlo? Cuando se produce el nacimiento del hijo del agente.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El trámite debe ser gestionado en el organismo donde el agente percibe sus haberes. Completar formulario correspondiente y presentar documentación respaldatoria según corresponda: https://www.cba.gov.ar/asignaciones-familiares-clasificacion/"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Declaración Jurada para Percepción de Asignaciones Familiares (F11) Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

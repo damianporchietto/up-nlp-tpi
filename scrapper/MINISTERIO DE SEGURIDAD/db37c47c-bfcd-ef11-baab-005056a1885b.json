@@ -1,0 +1,35 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db37c47c-bfcd-ef11-baab-005056a1885b",
+  "title": "INSPECCIÓN TÉCNICA DE EMBARCACIÓN DEPORTIVA",
+  "description": "El trámite es de forma digital y consiste en la Inspección técnica de la embarcación para poder realizar trámites diversos relacionados a la misma por ej.: Matriculación, Transferencia, Cambios de motor, etc. El trámite es personal, o a través de un tercero designado como representante en CIDI.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "1.Para iniciar un trámite deberá estar registrado como Ciudadano Digital Nivel 2 en: https://ciudadanodigital.cba.gov.ar/ 2. Habiéndose logueado con su usuario y clave personal de CIDI, deberá ingresar en barra de búsqueda la palabra clave NAUTICA y será redireccionado a la página de NÁUTICA CIUDADANO donde podrá visualizar los trámites y requisitos para iniciarlo. 3. Una vez reunidos todos los requisitos solicitados deberá adjuntar los mismos escaneados de los originales y subir cada archivo PDF en el campo solicitado: • Comprobante Inspección Apta obligatoria • Comprobante de Tasa Retributiva Lugar de pago tasas: Banco de Córdoba - Rapipago - PAGO Fácil- Cobroexpress, en línea con Mercado Pago y Tarjetas de Créditos y/o débito."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Presentarse con la embarcación correctamente aseada y en óptimas condiciones de mantenimiento en la Delegación elegida. Contar con los elementos de seguridad que correspondan al tipo de embarcación a inspeccionar. CIDI - Tener cuenta de Ciudadano Digital, nivel 2"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Comprobante de pago Tasa Retributiva de Servicio Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Delegación Córdoba Seguridad Náutica Dirección: Av Ricchieri 1819 Ricchieri esquina Gobernador Roca, Parque Sarmiento, contiguo a la Ciudad de las Artes. Delegación Almafuerte Seguridad Náutica Dirección: Av Islas Malvinas 618 Entre Av Buenos Aires y Mendoza Delegación Cruz del Eje Seguridad Náutica Dirección: Av Sabattini 250 Al lado Secretaria de Turismo Cruz del Eje Delegación Embalse Seguridad Náutica Parador playa Overnight Delegación Los Molinos Seguridad Náutica Frente Comuna Villa Ciudad América Delegación Miramar Seguridad Náutica Dirección: Velez Sarsfield 140 Junto a Cuartel de Bomberos Voluntarios Delegación Villa Carlos Paz Seguridad Náutica Dirección: Av Arturo Humberto Illia 1400 Bahía del Gitano frente Asoc Cbesa Remo Delegación Villa Las Rosas Seguridad Náutica Dirección: Av Belgrano Sur 284 Pegado a Sucursal de Correo Argentino Delegación Villa Rumipal Seguridad Náutica Dirección: Rogelio Gomez 139 Dentro Camping del Balneario Municipal"
+    }
+  ]
+}

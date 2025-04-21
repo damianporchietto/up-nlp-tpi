@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff",
+  "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+  "description": "Permite al Afiliado Titular Obligatorio afiliar a su progenitor afín dentro del su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Afiliado Titular Obligatorio afiliar a su padrastro o madrastra dentro de su grupo familiar, se encuentre casado o en unión convivencial (registrada o no) con el progenitor del Titular. Se trata de una afiliación con aporte adicional y se le aplica el régimen de restricción inicial y no permanente de prestaciones. No requiere de renovación. Los aportes afiliatorios son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Partida de nacimiento (original) Si Acta Matrimonio (Ext RCivil) Si Certificado de Convivencia Si Unión Convivencial Si RÉGIMEN DE CARENCIAS MÉDICAS- HABILITACIÓN PROGRESIVA Si get_app RÉGIMEN DE CARENCIAS ODONTOLÓGICAS - HABILITACIÓN PROGRESIVA Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

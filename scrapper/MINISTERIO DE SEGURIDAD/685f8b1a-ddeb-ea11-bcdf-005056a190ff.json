@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/685f8b1a-ddeb-ea11-bcdf-005056a190ff",
+  "title": "MAB - BAJA POR FALLECIMIENTO",
+  "description": "Solicitud de baja de cargo docente titular ante fallecimiento, realizada por el establecimiento educativo. Está dirigido a todos los docentes de la provincia de Córdoba. ¿Cuándo es necesario realizarlo? Cuando se produzca el deceso del docente titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Cómo me informan de la resolución del trámite? Consultar el trámite on-line http://consultasuac.cba.gov.ar/.\" target=\"_blank\">http://consultasuac.cba.gov.ar/. Ante dudas en el código de novedad, consultar con un agente del ministerio. El formulario de MAB 09 debe contener siempre la firma del representante legal de la institución. Luego de iniciar el trámite en la dependencia, recibirá un sticker como comprobante, que le permitirá conocer el estado de su trámite ingresando a http://consultasuac.cba.gov.ar/.\" target=\"_blank\">http://consultasuac.cba.gov.ar/.o escribiendo sticker seguido de su número de sticker en la barra de búsqueda del http://portaldetramites.cba.gov.ar/."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    }
+  ]
+}

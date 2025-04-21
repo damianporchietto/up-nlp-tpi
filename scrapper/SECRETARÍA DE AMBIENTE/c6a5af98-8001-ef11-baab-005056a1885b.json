@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c6a5af98-8001-ef11-baab-005056a1885b",
+  "title": "SOLICITUD DE ÁRBOLES - PROGRAMA MÁS FLORA CORDOBESA",
+  "description": "El Programa Más Flora Cordobesa tiene como objetivo conservar la biodiversidad, aportando a la restauración de los ecosistemas autóctonos de la provincia de Córdoba (y sus servicios ecosistémicos) mediante la plantación de especies de flora nativa de importancia eco-socio-cultural, teniendo en cuenta las diversas regiones fitogeográficas. El programa incluye acciones de forestación junto a municipios y comunas, empresas, organizaciones, y demás instituciones. Los interesados en acceder a los beneficios de este programa podrán iniciar el trámite haciendo clic en ¨Iniciar Online¨. La información declarada será evaluada por técnicos de la Subsecretaría de Biodiversidad, perteneciente a la Secretaría de Ambiente del Ministerio de Ambiente y Economía Circular y se acordará la disponibilidad para colaborar con posibles donaciones de árboles. Además, en los casos que fuera necesario se asesorará sobre forestación al municipio o comuna.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Quien presente el trámite debe constituir cuenta de usuario de CiDi - NIVEL 2. En caso de postularse como organismo, el trámite deberá ser efectuado por el representante legal o autorizado por empresa, para lo cual deberá generar previamente una relación en CiDi sobre el servicio e-trámite autorizando a dicho Responsable. Para mayor detalle consultar el siguiente instructivo: I SA 001 Instructivo Representante Legal CiDi https://portaltecnologico.cba.gov.ar/i_sig_020_instructivo_representante_legal_cidi/ La aprobación de los planes de forestación que cumplan con todos los requisitos serán notificados por la Subsecretaría de Biodiversidad a cada solicitante a través de CiDi, seguidamente se designará una orden de entrega indicando los ejemplares a retirar en los viveros forestales de la provincia. Es importante tener en cuenta que el beneficiario debe hacerse cargo del retiro de los mismos. Se sugiere tener en cuenta las indicaciones detalladas en el manual “El arbolado en la construcción de pueblos y ciudades sostenibles” el cual incluye información importante para la planificación, plantación y mantenimiento de la forestación, junto con la normativa provincial y local vigente. Podrá consultar dicho manual en el siguiente link: https://ambiente.cba.gov.ar/wp-content/uploads/2022/07/El-Arbolado-en-el-Medio-Ambiente-2020_Comprimido.pdf Para consultas por favor dirigirse a: info.biodiversidadcba@gmail.com"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Cidi -Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Plan de Forestación Adjuntar archivo pdf. Deberá incluir como mínimo objetivos, tipo de área/s a forestar, ubicación de las mismas, especies de preferencia, cantidad de ejemplares necesarios, cronograma de plantaciones y detalle de Plan de Manejo y Mantenimiento incluyendo poda y riego principalmente. No KML del poligono del predio Archivo kml o kmz del predio/s a forestar. (Opcional) No"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Cualquier organismo que cumpla con los requisitos solicitados en este trámite."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Ministerio de Ambiente y Economía Circular"
+    }
+  ]
+}

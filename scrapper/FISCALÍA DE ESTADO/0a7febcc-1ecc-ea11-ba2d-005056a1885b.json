@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0a7febcc-1ecc-ea11-ba2d-005056a1885b",
+  "title": "PUBLICACIÓN EN EL BOLETIN OFICIAL ELECTRÓNICO",
+  "description": "Publicación de edictos en el Boletín Oficial de la Provincia de Córdoba. Dirigido a Contadores, Abogados, Martilleros o Persona Física con legítimo interés en la misma.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Más informacón: http://boletinoficial.cba.gov.ar/"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Contadores, Abogados, Martilleros o Persona Física con legítimo interés en la misma"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    }
+  ]
+}

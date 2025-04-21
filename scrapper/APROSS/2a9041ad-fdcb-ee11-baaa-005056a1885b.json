@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2a9041ad-fdcb-ee11-baaa-005056a1885b",
+  "title": "RENOVACIÓN DE AFILIACIÓN DE CONVIVIENTES SIN OBRA SOCIAL",
+  "description": "Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del conviviente sin obra social. La renovación debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional de su conviviente sin obra social. Se trata de un trámite anual. Caso contrario, esta afiliación continuará vigente con aporte adicional hasta que el/la Afiliado/a Titular cumplimente con dicha renovación o, bien, requiera la baja afiliatoria. Los aportes afiliatorios que pudiesen devengarse son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Negativa de ANSES (original) Si Certificado de Convivencia Si Acta Unión Convivencial (Copia) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

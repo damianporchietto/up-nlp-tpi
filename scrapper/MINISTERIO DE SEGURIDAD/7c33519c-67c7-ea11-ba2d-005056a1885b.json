@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7c33519c-67c7-ea11-ba2d-005056a1885b",
+  "title": "APERTURA DE LEGAJO",
+  "description": "Abrir legajo para ingresar a la docencia a nivel provincial. Dirigido a aspirantes a ingresar al sistema educativo de nivel secundario, superior modalidad adultos o especial, ya sea para dictar asignaturas o cargos. En la fecha de convocatoria.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "IMPORTANTE: En los casos en que tuvieran inconvenientes para la inscripción por página Web o con el uso de la Clave deberán remitir la inquietud al siguiente correo: juntamediareclamos@cba.gov.ar, ingresando correctamente sus datos personales y los del Correo Electrónico Personal para obtener rápida respuesta y solución."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Registro de títulos Dos copias con el índice de la documentación entregada. Título de otras provincias debe estar legalizado por el Ministerio del Interior (Bs.As.). Carpeta para legajo"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Certificado Analítico (original) Legalizado Si DNI (original) Si Título universitario legalizado (original) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Cualquier persona"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    }
+  ]
+}

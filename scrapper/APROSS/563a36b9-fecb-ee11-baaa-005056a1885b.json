@@ -1,0 +1,15 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/563a36b9-fecb-ee11-baaa-005056a1885b",
+  "title": "AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS",
+  "description": "Permite al Afiliado Titular Obligatorio la afiliación de su nieto recién nacido dentro de su grupo familiar, sin la aplicación del régimen inicial y no permanente de prestaciones. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Titular Obligatorio afiliar a su nieto recién nacido dentro de su grupo familiar sin la aplicación del régimen de restricción inicial y no permanente de prestaciones. Esta alternativa prevé un límite temporal para su alta: solo procede hasta los 60 días corridos desde su nacimiento. El Titular deberá aceptar el descuento de aportes aplicable al caso y comprometerse a la permanencia en la afiliación por el lapso de 24 meses desde el alta afiliatoria. No requiere de renovación. Los aportes afiliatorios son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

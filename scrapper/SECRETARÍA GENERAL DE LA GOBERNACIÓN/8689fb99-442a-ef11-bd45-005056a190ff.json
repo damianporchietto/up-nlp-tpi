@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8689fb99-442a-ef11-bd45-005056a190ff",
+  "title": "FIRMA DIGITAL REMOTA - PERSONA HUMANA",
+  "description": "El trámite consiste en gestionar el certificado de firma digital remota emitido por la Secretaría de Modernización de la Nación (AC-Modernización-PFDR). La modalidad de Firma Digital Remota permitirá al suscriptor firmar únicamente documentos en formato PDF desde la Plataforma de Firma Digital Remota, utilizando su teléfono inteligente. Está dirigido a persona humana que requiera la FIRMA DIGITAL",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Firma Digital Remota: • El trámite se realiza con turno que se debe gestionarse a través de: Para Capital: 0800 888 1234 (Opción 1 y opción 5) Para el interior: Turnero Digital turnero.cba.gov.ar • El trámite es personal y presencial. • El día del turno presentarse con DNI y espacio en el celular para descargar una aplicación móvil (APP). Pasos posteriores al turno: 1° - Descargar Adobe Reader DC para poder visualizar los archivos PDF que te enviarán firmados. 2° - Configurar Adobe Acrobat Reader DC, según las siguientes indicaciones: https://firmar.gob.ar/docs/Configuraci%C3%B3n_Adobe_Reader.pdf 3° - Incorpora la cadena de certificados emitidos por AC-Raíz, incluye todos los certificados de las autoridades certificantes públicas y privadas. https://www.argentina.gob.ar/servicio/valida-los-documentos-electronicos-firmados-digitalmente-0 Normativa vigente: https://www.argentina.gob.ar/modernizacion/firmadigital/normativa-de-firma-digital-remota Asesoramiento técnico: ingresar a https://firmar.gob.ar/ayuda.html. ¿Tiene vencimiento? El Certificado de Firma Digital Remota tiene validez de 4 años"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Contar con un teléfono inteligente (smartphone) Contar con una cuenta de correo electrónico personal asociada al teléfono inteligente Instalar previamente en el teléfono una aplicación para generar código OTP (One Time Password) desde la tienda de aplicaciones. Además, sincronizar fecha y hora en modo automático"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original DNI (original) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno. Medios 1. Web Interior exit_to_app Ir al sitio 2. Telefónico 0800-888-1234 Opción 1 y opción 5 Capital"
+    }
+  ]
+}

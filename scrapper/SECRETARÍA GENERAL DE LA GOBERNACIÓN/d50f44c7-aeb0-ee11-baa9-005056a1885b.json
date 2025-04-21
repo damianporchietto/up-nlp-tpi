@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d50f44c7-aeb0-ee11-baa9-005056a1885b",
+  "title": "CONSTANCIA DE SERVICIOS - INACTIVOS",
+  "description": "La Constancia de Servicios se puede consultar y descargar desde la plataforma informática Empleado Digital (EDI). En el mismo instante todas/os las/os trabajadoras/es (aún inactivos) de la Administración Pública Provincial cuentan con la posibilidad de acceder a la mencionada información. Para acceder a su Constancia de Servicios ingrese en el menú de Empleado Digital (EDI): Consulta --> Laboral --> Historia Laboral Allí encontrará un botón sobre el costado derecho de la página donde podrá visualizar, imprimir y/o descargar su Constancia de Servicios. Dirigido a agentes administrativos. ¿Cuándo es necesario realizarlo? Cuando el interesado lo requiera.",
+  "requirements": [
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIDI - Tener cuenta de Ciudadano Digital, nivel 1 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Cualquier persona."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    }
+  ]
+}

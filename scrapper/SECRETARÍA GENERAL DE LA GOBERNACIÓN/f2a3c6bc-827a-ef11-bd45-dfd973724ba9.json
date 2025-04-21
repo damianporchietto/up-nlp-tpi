@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/f2a3c6bc-827a-ef11-bd45-dfd973724ba9",
+  "title": "JUSTIFICACIÓN DE LICENCIA POR RAZONES DE SALUD",
+  "description": "Este trámite se realiza por parte del personal de la Administración Pública Provincial cuando su licencia por razones de salud de corto tratamiento está injustificada o están disconformes con los días determinados por el o la profesional de control, dentro de las 48 horas hábiles posteriores a la notificación del resultado de la solicitud. Para ello, deben ingresar a EDi (empleadodigital.cba.gov.ar), cliquear el botón \"Gestión de licencias de salud\" y luego el botón \"Consultar\". Después, buscar la licencia de corto tratamiento correspondiente y en la columna de información adicional, hacer clic en el ícono “Más”. Allí, deben completar los datos del trámite de “Justificación de licencias por razones de salud”; adjuntar el certificado u otro documento que dé razones suficientes para modificar la decisión tomada en el control de ausentismo. Esta solicitud se puede generar editar o anular, dentro de las primeras 48 horas. La Dirección de Salud en el Trabajo realiza el análisis de la solicitud y resuelve, comunicando la decisión al agente a través de una notificación CiDi. El resultado también puede consultarse desde EDi. Más información en: www.cba.gov.ar/dst-licencia-por-salud/",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Al trámite de Justificación de licencia por razones de salud, se le debe adjuntar un certificado u otra documentación que permita a la DST contar con razones suficientes para revertir la decisión tomada por el o la profesional del control de la salud."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Completar el Formulario de Justificación de licencia por razones de salud CiDi Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

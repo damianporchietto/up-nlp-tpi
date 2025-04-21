@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/957869ad-00af-ee11-baa9-005056a1885b",
+  "title": "SOLICITUD DE ASIGNACIÓN O CAMBIO DE ASIGNACIÓN DE INMUEBLE - LEY 10580 - DEC. REG. 927/19 RES. 1130/19.",
+  "description": "Consiste en pedir la asignación, cambio o baja de la misma tanto de inmuebles fiscales como profiscales, conforme a la legislación mencionada. El pedido se inicia haciendo clic en “Iniciar Online”. Para esto se deben cumplimentar los requisitos mínimos de admisión. Este trámite va dirigido a jurisdicciones de la Administración Centralizada del Gobierno de la Provincia de Córdoba que tengan la necesidad de solicitar asignación de inmuebles",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Luego de que el solicitante haya iniciado el e-trámite, la Autoridad de Aplicación dictará la resolución correspondiente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Ser titular del servicio administrativo CiDi Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Gráfico para asignación parcial (Inmuebles) No"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Titular del servicio administrativo de cada jurisdicción."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Dirección de patrimonial - Secretaría General de la Gobernación Horario de atención: Online - Completar el e-trámite haciendo clic en \"Iniciar Online\"."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/a52615cc-6bb1-ee11-baa9-005056a1885b",
+  "title": "MAB ELECTRONICO - MAB PROCESADO SIN LIQUIDAR",
+  "description": "No se refleja en la liquidación un MAB \"procesado\". Está dirigido a Directores, Secretarios y/o Representante Legal. ¿Cuándo es necesario realizarlo? Cuando el MAB se encuentra en estado procesado y no se refleja en la liquidación de haberes",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Cómo me informan de la resolución del reclamo? Puedo informarme de la siguiente manera: Concurrir a la dependencia. Recibirás un correo electrónico. Recibirás una comunicación telefónica. ¿Tiene vencimiento? No tiene caducidad."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Asistir con los números de MAB"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Directores, Secretarios y Representante Legal del Establecimiento Educativo."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Subdirección de Administración de Datos Dirección: ROSARIO DE SANTA FE 650 Horario de atención: De lunes a viernes de 8 a 20 hs. / Bº GRAL PAZ / CORDOBA"
+    }
+  ]
+}

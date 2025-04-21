@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/200b52b6-5ee8-ee11-baab-005056a1885b",
+  "title": "Presentación de Regularizaciones-Banco de la Gente",
+  "description": "Destinatarios: Este formulario será utilizado por beneficiarios del Programa Banco de la Gente que abonaron sus cuotas pero no impactaron en el sistema Estará dirigido para beneficiarios del crédito de Linea Libre como también el de Emprendimientos.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Destinatarios: Este formulario será utilizado por beneficiarios del Programa Banco de la Gente que abonaron sus cuotas pero no impactaron en el sistema Estará dirigido para beneficiarios del crédito de Linea Libre como también el de Emprendimientos. Ambos créditos, aunque con distintos valores y objetivos, otorgan tres (3) meses de gracia para los beneficiarios. El crédito de linea Libre se devuelve en 20 cuotas. Por su parte, el crédito de Emprendimiento se devuelve en 30 cuota Estos créditos otorgan la posibilidad de adelantar cuotas."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CiDi Nivel 2 exit_to_app Ver detalle Ser beneficiario del programa Banco de la gente"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

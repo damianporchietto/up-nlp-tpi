@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e27c09ca-55cb-ee11-bd43-005056a190ff",
+  "title": "MATRICULACIONES SALUD",
+  "description": "Permite tramitar la matrícula de profesiones de instituciones terciarias o universidades que son gestión del Ministerio de Salud",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El turno será habilitado una vez iniciado y aprobado el trámite. El Certificado de Buena Conducta es para aquellas personas que son de Córdoba. Válido sólo hasta 6 (seis) meses después de su fecha de emisión. El Certificado de Reincidencia es para aquellas personas que no son de Córdoba."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original DNI (original) Si Título profesional habilitante Si Certificado de buena conducta Si Certificado de Reincidencia Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Ministerio de Salud de la Provincia de Córdoba Dirección: Av. Vélez Sarsfield 2311"
+    }
+  ]
+}

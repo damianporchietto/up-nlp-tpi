@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e4e3587a-facb-ee11-baaa-005056a1885b",
+  "title": "AFILIACION A APROSS DE CONVIVIENTES SIN OBRA SOCIAL",
+  "description": "Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su conviviente sin obra social dentro de su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Titular Obligatorio afiliar a su conviviente sin obra social dentro de su grupo familiar. Se trata de una afiliación sin aporte adicional y sin la aplicación del régimen de restricción inicial y no permanente de prestaciones. Debe acreditarse unión convivencial no inferior a dos años, salvo hijo en común. En caso de que uno de los convivientes sea menor de edad y desde los 16 años, deberá acompaña original del consentimiento de ambos o alguno de sus progenitores. Requiere de renovación anual. Caso contrario, esta afiliación continuará vigente con aporte adicional hasta que el/la Afiliado/a Titular cumplimente con dicha renovación o, bien, requiera la baja afiliatoria. Los aportes afiliatorios que pudiesen devengarse son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Negativa de ANSES (original) Si Certificado de Convivencia Si Acta Unión Convivencial (Copia) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

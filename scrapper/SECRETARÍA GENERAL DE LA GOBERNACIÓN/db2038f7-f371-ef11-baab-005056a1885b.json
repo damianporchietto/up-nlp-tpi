@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db2038f7-f371-ef11-baab-005056a1885b",
+  "title": "FIRMA DIGITAL CON TOKEN - EMPLEADOS PUBLICOS Y PROVEEDORES",
+  "description": "El trámite consiste en gestionar el certificado de firma digital emitido por AC-ONTI. La modalidad de Firma Digital por Hardware permitirá al suscriptor firmar digitalmente cualquier documento o transacción, con la utilización de un dispositivo criptográfico (token). La validez del dispositivo criptográfico (token) se verificará en presencia del suscriptor al momento del turno. La Secretaría General de la Gobernación, como Autoridad de Registro, no provee dispositivos criptográficos. El suscriptor deberá adquirirlo previamente. Aclaración: El certificado de firma digital se emitirá a nombre del suscriptor, no a nombre de empresas. El Certificado de Firma Digital tiene validez de 2 años",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Que otro dato debe tenerse en cuenta?Se debe completar el formulario de la siguiente manera: o Ingresar los datos personales como figuran en el DNI. o Ingresar un correo personal. o Elegir como Autoridad de Registro a la Secretaría General de la Gobernación de la Provincia de Córdoba. o Una vez completado el formulario se dispone de 24 horas para abrir y confirmar un correo de la cuenta acap@pki.gob.ar. Una vez emitido su certificado de Firma Digital Token, Ud. recibirá un mail de la Autoridad Certificante AC-ONTI, con el pin de revocación. Para empezar a operar con Firma Digital es necesario que instale el Driver de su Token y los certificados AC RAIZ y AC ONTI en su equipo. Tutorial: https://www.argentina.gob.ar/modernizacion/firmadigital/descargas-tutoriales Normativa vigente: https://www.argentina.gob.ar/modernizacion/firmadigital/normativaaconti Para consultas o dudas sobre estos temas técnicos se deberá comunicar al teléfono 011-59858600 Int. 6195 / 6194.Se debe completar el formulario de la siguiente manera: o Ingresar los datos personales como figuran en el DNI. o Ingresar un correo personal. o Elegir como Autoridad de Registro a la Secretaría General de la Gobernación de la Provincia de Córdoba. o Una vez completado el formulario se dispone de 24 horas para abrir y confirmar un correo de la cuenta acap@pki.gob.ar. Una vez emitido su certificado de Firma Digital Token, Ud. recibirá un mail de la Autoridad Certificante AC-ONTI, con el pin de revocación. Para empezar a operar con Firma Digital es necesario que instale el Driver de su Token y los certificados AC RAIZ y AC ONTI en su equipo. Tutorial: https://www.argentina.gob.ar/modernizacion/firmadigital/descargas-tutoriales Normativa vigente: https://www.argentina.gob.ar/modernizacion/firmadigital/normativaaconti Para consultas o dudas sobre estos temas técnicos se deberá comunicar al teléfono 011-59858600 Int. 6195 / 6194."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Completar el formulario NOTA DE ENVÍO que da inicio al trámite. Elegir Autoridad Registro Secretaria General de la Gobernación Prov de Córdoba (Se destaca que esta nota tiene una validez de 20 días). exit_to_app Ver detalle Confirmar el mail que le envía AC-ONTI a los fines de validar su correo. (En un plazo no mayor a las 24 hs) Contar con un DISPOSITIVO CRIPTOGRAFICO TOKEN con especificaciones técnicas FIPS 140-2 Nivel 2 o Nivel 3 (Debe ser válido ante Instituto Nacional de Estándares y Tecnología NIST)"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original DNI (original) Si Nota de envío de datos No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "El servicio es estrictamente personal e intransferible, no se aceptan intermediaciones y/o gestorias"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno. Medios 1. Web exit_to_app Ir al sitio"
+    }
+  ]
+}

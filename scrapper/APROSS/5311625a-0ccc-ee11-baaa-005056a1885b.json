@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b",
+  "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+  "description": "Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "También le permite al Afiliado Titular Obligatorio solicitar la baja de cualquier familiar cuya afiliación cuente con aporte adicional. Solo si la solicitud es formulada antes del quinto día hábil del mes, el Titular no advertirá descuento de aporte por su familiar en el próximo recibo de haberes."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Partida de Defunción Si Sentencia firme de divorcio Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

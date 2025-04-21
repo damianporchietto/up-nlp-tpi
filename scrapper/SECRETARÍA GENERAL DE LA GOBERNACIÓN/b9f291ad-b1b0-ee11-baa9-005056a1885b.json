@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/b9f291ad-b1b0-ee11-baa9-005056a1885b",
+  "title": "ASIGNACIÓN POR ADOPCIÓN Y ALTA DE PAGO SALARIO FAMILIAR",
+  "description": "La Asignación por Adopción consistirá en el pago de una suma única de dinero, que se abonará al/la trabajador/a en el mes en que acredite dicho acto ante el empleador con el instrumento que otorgue la adopción definitiva. Está dirigido a todo agente que posea este vínculo de parentesco y que desempeñe funciones dentro del ámbito de la Administración Pública Provincial. ¿Cuándo es necesario realizarlo? El mes en que el agente acredite la adopción de su hijo.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Cómo me informan de la resolución del trámite? Concurrir a la dependencia. ¿Qué otro dato debe tenerse en cuenta? El trámite debe ser gestionado en el organismo donde el agente percibe sus haberes. Completar formulario correspondiente y presentar documentación respaldatoria según corresponda: https://www.cba.gov.ar/asignaciones-familiares-clasificacion/"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Declaración Jurada para Percepción de Asignaciones Familiares (F11) Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

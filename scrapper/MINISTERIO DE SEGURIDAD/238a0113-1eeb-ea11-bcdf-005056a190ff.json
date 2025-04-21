@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/238a0113-1eeb-ea11-bcdf-005056a190ff",
+  "title": "MAB - LICENCIA POR EXÁMEN",
+  "description": "Consiste en los movimientos realizados por los docentes. Dirigido únicamente a docentes. ¿Cuándo es necesario realizarlo? Cuando el docente tenga un exámen.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Consultar el trámite on-line http://consultasuac.cba.gov.ar/.\" target=\"_blank\">http://consultasuac.cba.gov.ar/. Dirección General Enseñanza Privada LA RIOJA 720 PB / Bº ALBERDI / CORDOBA Horario: 8 a 20hs. Siempre el formulario de MAB 09 debe contener la firma de el Representante Legal de la Institución. Luego de iniciar el trámite en la dependencia, recibirá un sticker como comprobante, que le permitirá conocer el estado de su trámite ingresando a http://consultasuac.cba.gov.ar/.\" target=\"_blank\">http://consultasuac.cba.gov.ar/.o escribiendo sticker seguido de su número de sticker en la barra de búsqueda del http://portaldetramites.cba.gov.ar/."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    }
+  ]
+}

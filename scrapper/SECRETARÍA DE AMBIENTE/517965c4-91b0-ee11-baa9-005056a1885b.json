@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/517965c4-91b0-ee11-baa9-005056a1885b",
+  "title": "DESCARGO POLICÍA AMBIENTAL",
+  "description": "Presentación para que el presunto infractor ejerza su derecho de defensa, exponiendo los hechos pertinentes y ofreciendo las pruebas para acreditar tales hechos. En la misma también puede optar por el allanamiento, reconociendo los hechos que se le imputan, y pudiendo acceder de tal modo a la quita de hasta un 50% en la multa estimada en el sumario infraccional.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Tiene vencimiento? Cinco días hábiles de recibida la cédula de notificación. Toda persona que comparezca ante la autoridad administrativa sea por sí o en representación de terceros, deberá constituir domicilio electrónico. En su defecto se considerará como domicilio electrónico constituido, al domicilio administrativo electrónico que la persona tenga registrado ante la Administración. El interesado deberá, además, denunciar su domicilio real. (ART. 25 LEY 5350). INDICAR SIEMPRE NUMERO COMPLETO DE EXPEDIENTE"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "En caso de ofrecer Prueba Documental, deberá adjuntarla con el Descargo. CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Domicilio Electrónico"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal (Persona Humana) o por Representante Legal (Persona Jurídica). También Apoderado de persona humana o jurídica con facultades para representar ante la Adm. Públ. Prov. de Córdoba."
+    }
+  ]
+}

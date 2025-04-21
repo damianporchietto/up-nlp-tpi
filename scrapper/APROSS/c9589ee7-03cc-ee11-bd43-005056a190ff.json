@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff",
+  "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+  "description": "Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Afiliado Titular Obligatorio afiliar a su ex cónyuge dentro de su grupo familiar. Se trata de una afiliación con aporte adicional y se le aplica el régimen de restricción inicial y no permanente de prestaciones. No requiere de renovación. Los aportes afiliatorios son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Sentencia firme de divorcio Si RÉGIMEN DE CARENCIAS MÉDICAS- HABILITACIÓN PROGRESIVA Si get_app RÉGIMEN DE CARENCIAS ODONTOLÓGICAS - HABILITACIÓN PROGRESIVA Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/dffd3035-e5ab-ee11-baa9-005056a1885b",
+  "title": "PAGO SEGURO DE VIDA / DENUNCIA POR FALLECIMIENTO",
+  "description": "Solicitud de pago del beneficio del Seguro de Vida en caso de muerte del asegurado.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Puede realizarlo ingresando a través de su ciudadano digital nivel 2 - PAGO SEGURO DE VIDA / DENUNCIA POR FALLECIMIENTO El periodo de vencimiento es de 3 años desde la fecha de fallecimiento del asegurado."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Ser beneficiario del Seguro de Vida designado por el asegurado Ser mayor de 18 años, y en caso de menores concurrir los que ejercen la Responsabilidad parental Declarar CBU en Portal de beneficiarios (IMPORTANTE: demora aprox. 48 hs en impactar a partir de la declaración ) exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original DNI (original) Si Partida de Defunción Si Constancia de Opción del seguro de vida Adicional Si Certificado emitido por el Poder Judicial sobre la existencia de imputados en caso de fallecimiento Si Recibo de sueldo Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "-"
+    }
+  ]
+}

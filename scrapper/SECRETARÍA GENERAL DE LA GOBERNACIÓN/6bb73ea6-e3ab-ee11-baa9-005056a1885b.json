@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/6bb73ea6-e3ab-ee11-baa9-005056a1885b",
+  "title": "DENUNCIA DE SINIESTROS DE PARTICULARES",
+  "description": "Inicio del reclamo administrativo para la reparación de daños materiales producto de un siniestro entre vehículos de particulares y vehículos de titularidad de la Provincia de Córdoba.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Puede realizarlo ingresando a través de su ciudadano digital nivel 2 - guía de tramite - DENUNCIA DE SINIESTROS PARTICULARES El formulario de denuncia debe ser completado en su totalidad: - lugar fecha y hora del accidente. - datos del conductor y titular registral del vehículo. - dominio del vehículo siniestrado. - datos del conductor (agente provincial o resguardado). - datos de la repartición o ministerio donde estuviere asignado el vehículo provincial (Ministerio, Agencia, Municipio, Policía, etc). - descripción del siniestro, confeccionar croquis y fotografías. - ubicación de los daños de ambos vehículos. - datos de las personas lesionadas (si hubiere). - datos de los bienes dañados."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Cédula Única de Identificación del Vehículo (ex verde) Si Póliza de seguro Si Denuncia del Siniestro en su Compañía Aseguradora Si Presupuestos de reparación de los daños del vehículo, con membrete y CUIL Si Carnet de Conducir Si DNI (original) Si Título del automotor Si Fotografías del siniestro Si Croquis de la formación Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Damnificado"
+    }
+  ]
+}

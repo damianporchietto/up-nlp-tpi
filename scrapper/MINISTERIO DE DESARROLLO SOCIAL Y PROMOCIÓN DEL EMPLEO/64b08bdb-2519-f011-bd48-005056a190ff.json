@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/64b08bdb-2519-f011-bd48-005056a190ff",
+  "title": "SOLICITUD DE APROBACIÓN DE TRAYECTO FORMATIVO IFP PUBLICAS",
+  "description": "El siguiente trámite tiene por destino solicitar la aprobación de trayecto formativo. Dicha solicitud puede ser gestionada por el Representante Legal del Centro de Capacitación Laboral Público, o por los Representantes de los Organismos habilitados a tal fin.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Deberá adjuntar la siguiente documentación: - Presupuesto y planificación del trayecto formativo - Formulario de Supervisión de Sede, en caso de dictarse la capacitación fuera de la Sede de la IFP Por consultas comunicarse al Tel. 0351-4322900 interno 2046 y 2110"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CiDi Nivel 2 exit_to_app Ver detalle Institución inscripta en REPICA exit_to_app Ver detalle Capacitadores inscriptos en REPROCA exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Formulario de Presupuesto y Planificación Didactica No get_app Formulario de Supervisión de Sede No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Representante con poder especial"
+    }
+  ]
+}

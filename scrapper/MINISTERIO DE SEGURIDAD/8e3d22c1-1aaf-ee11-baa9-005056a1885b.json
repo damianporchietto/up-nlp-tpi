@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8e3d22c1-1aaf-ee11-baa9-005056a1885b",
+  "title": "BAJA DE MATRÍCULA",
+  "description": "Trámite que se realiza a los fines de dar de baja el permiso de navegación de una embarcación registrada en el Sistema de Seguridad Náutica. Está dirigido a quien ya poseía matrícula con anterioridad. Puede realizarlo cuando se produce el robo, destrucción de la embarcación; o por venta y traslado a otra provincia.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Todos los requisitos son obligatorios en caso contrario no se dará curso al tramite. IMPORTANTE: La baja de la Matrícula podrá solicitarse solo por las siguientes causas: A. Destrucción total de la embarcación. exposición policial declarando la destrucción total de la misma. B. Robo/Hurto de la embarcación: exposición policial declarando la destrucción total de la misma. C. Cambio de Jurisdicción de la Embarcación: Boleto de Compraventa cuyas firmas también deben estar certificadas, y acreditando domicilio del comprador mediante DNI cuyo domicilio sea fuera de la Jurisdicción Provincial."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Libre deuda de tasas anuales CIDI - Tener cuenta de Ciudadano Digital, nivel 2"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Comprobante de pago Tasa Retributiva de Servicio Si Matrícula de la embarcación Si Boleto de Compraventa Si Denuncia Policial de Robo / Extravío Si Exposición policial No Formulario N°8 Solicitud de Baja de Matrícula No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Delegación Almafuerte Seguridad Náutica Dirección: Av Islas Malvinas 618 Entre Av Buenos Aires y Mendoza Delegación Cruz del Eje Seguridad Náutica Dirección: Av Sabattini 250 Al lado Secretaria de Turismo Cruz del Eje Delegación Córdoba Seguridad Náutica Dirección: Av Ricchieri 1819 Ricchieri esquina Gobernador Roca, Parque Sarmiento, contiguo a la Ciudad de las Artes. Delegación Embalse Seguridad Náutica Parador playa Overnight Delegación Los Molinos Seguridad Náutica Frente Comuna Villa Ciudad América Delegación Miramar Seguridad Náutica Dirección: Velez Sarsfield 140 Junto a Cuartel de Bomberos Voluntarios Delegación Villa Carlos Paz Seguridad Náutica Dirección: Av Arturo Humberto Illia 1400 Bahía del Gitano frente Asoc Cbesa Remo Delegación Villa Las Rosas Seguridad Náutica Dirección: Av Belgrano Sur 284 Pegado a Sucursal de Correo Argentino Delegación Villa Rumipal Seguridad Náutica Dirección: Rogelio Gomez 139 Dentro Camping del Balneario Municipal"
+    }
+  ]
+}

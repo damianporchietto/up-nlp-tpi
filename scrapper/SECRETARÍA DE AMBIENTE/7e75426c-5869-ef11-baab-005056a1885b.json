@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7e75426c-5869-ef11-baab-005056a1885b",
+  "title": "LICENCIA AMBIENTAL - CONSULTA AMERITA / NO AMERITA - EsIA - AP",
+  "description": "E-trámite para consultar si un proyecto, obra o actividad está sujeta al procedimiento de Evaluación de Impacto Ambiental. Los resultados de este procedimiento pueden ser dos: “Amerita” o “No Amerita”: Si Amerita, el proponente deberá presentar un Aviso de Proyecto o Estudio de Impacto Ambiental según lo notificado, en la Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular para tramitar la Licencia Ambiental. En el segundo caso, cuando No Amerita presentar un Aviso de Proyecto o Estudio de Impacto Ambiental en el Ministerio de Ambiente y Economía Circular, el proyecto estará sujeto a una Auditoría Ambiental que constate lo declarado.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El proponente debe constituir cuenta de usuario de CiDi – NIVEL 2. En el caso de que se solicite documentación adicional, deberá anexarla ingresando al e-trámite \"LICENCIA AMBIENTAL - INGRESO DE DOCUMENTACIÓN ADICIONAL A UN TRÁMITE INICIADO\". La resolución del trámite se informará por CiDi. Para poder iniciar el trámite el representante legal o autorizado por la empresa, deberá generar previamente una relación en CiDi sobre el servicio e-trámite autorizando al responsable técnico. Tasas: Tasa de informes sobre necesidad de presentación de un instrumento de gestión ambiental (amerita / no amerita): Se debe abonar en inicio de trámite."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Requisitos Minimos de Admisibilidad-CONSULTA AMERITA-NO AMERITA-E-EIA-026 exit_to_app Ver detalle Requisitos Minimos de Admisibilidad -Resumen-Consulta Amerita-No Amerita-F-EIA-027 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "El trámite puede ser efectuado por el titular del proyecto o un responsable técnico autorizado desde CiDi por la empresa o titular de proyecto."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    }
+  ]
+}

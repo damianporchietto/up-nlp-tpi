@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/1894a249-a0b0-ee11-baa9-005056a1885b",
+  "title": "ASIGNACIÓN POR MATRIMONIO",
+  "description": "La Asignación por Matrimonio consistirá en el pago de una suma única de dinero, que se abonará en el mes en que se acredite dicho acto ante el empleador mediante acta emanada de autoridad competente. Está dirigido a los cónyuges cuando ambos se encuentren comprendidos en el Régimen de Asignaciones Familiares. Toda la información referida a Asignaciones familiares está disponible en: https://www.cba.gov.ar/info-empleados/asignaciones-familiares/",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Cómo me informan de la resolución del trámite? A través de una notificación en CiDi-Mis comunicaciones. El trámite deberá gestionarse en el organismo donde la o el agente percibe sus haberes. Luego de iniciar el trámite en la dependencia, recibirá un sticker como comprobante, que le permitirá conocer el estado de su trámite ingresando a http://consultasuac.cba.gov.ar/ o escribiendo sticker seguido de su número de sticker en la barra de búsqueda del http://portaldetramites.cba.gov.ar/."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Declaración Jurada para Percepción de Asignaciones Familiares (F11) Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/83f64b2f-9eb0-ee11-baa9-005056a1885b",
+  "title": "REGISTRO DE EMBARCACION CON MATRICULA DE OTRAS JURISDICCIONES",
+  "description": "IMPORTANTE: 1. Para iniciar un trámite deberá registrarse como Ciudadano Digital Nivel 2 en: https://ciudadanodigital.cba.gov.ar/ 2. Deberá sacar un turno para realizar la Inspección Técnica de Embarcación Deportiva (Link para turno: https://nauticaciudadano.cba.gov.ar/. 3. Una vez realizada la Inspección Técnica de Embarcación Deportiva y encontrares APTA, deberá reunir el resto de los requisitos solicitados, adjuntar los mismos escaneados de los originales y subir cada archivo PDF en el campo solicitado. Trámite que se realiza a los fines de solicitar autorización para navegar en los espejos de agua de Jurisdicción de la Provincia de Córdoba, de embarcaciones con Matrícula de otras Jurisdicciones excepto las otorgadas por Prefectura Naval Argentina.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "IMPORTANTE: El permiso tiene validez por dos años. Si la embarcación es accionada a motor debe poseer licencia de conducir náutica."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Libre deuda de tasas anuales"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Constancia de CUIL No Planilla de Inspección Técnica de Embarcación Deportiva Apta No Comprobante de pago Tasa Retributiva de Servicio Si DNI (original) Si Matrícula de la embarcación Si Formulario N°17 Solicitud de permiso de navegación con Matricula de otras jurisdicciones No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Delegación Almafuerte Seguridad Náutica Dirección: Av Islas Malvinas 618 Entre Av Buenos Aires y Mendoza Delegación Cruz del Eje Seguridad Náutica Dirección: Av Sabattini 250 Al lado Secretaria de Turismo Cruz del Eje Delegación Córdoba Seguridad Náutica Dirección: Av Ricchieri 1819 Ricchieri esquina Gobernador Roca, Parque Sarmiento, contiguo a la Ciudad de las Artes. Delegación Embalse Seguridad Náutica Parador playa Overnight Delegación Los Molinos Seguridad Náutica Frente Comuna Villa Ciudad América Delegación Miramar Seguridad Náutica Dirección: Velez Sarsfield 140 Junto a Cuartel de Bomberos Voluntarios Delegación Villa Carlos Paz Seguridad Náutica Dirección: Av Arturo Humberto Illia 1400 Bahía del Gitano frente Asoc Cbesa Remo Delegación Villa Las Rosas Seguridad Náutica Dirección: Av Belgrano Sur 284 Pegado a Sucursal de Correo Argentino Delegación Villa Rumipal Seguridad Náutica Dirección: Rogelio Gomez 139 Dentro Camping del Balneario Municipal"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/91dcafa1-0bcc-ee11-baaa-005056a1885b",
+  "title": "AFILIACION A APROSS DE HERMANOS SOLTEROS, CON O SIN DISCAPACIDAD",
+  "description": "Permite al Afiliado Titular Obligatorio afiliar a su hermano soltero, con o sin discapacidad, dentro de su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Afiliado Titular Obligatorio afiliar su hermano dentro de su grupo familiar. Esta afiliación tiene un límite de edad: 30 años, quedando exceptuado solo el familiar con discapacidad. Se trata de una afiliación con aporte adicional y se le aplica el régimen de restricción inicial y no permanente de prestaciones. Requiere de renovación anual. En caso de no cumplimentarse, operará una baja automática. Los aportes afiliatorios son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Partida de nacimiento (original) Si Partida de nacimiento (original) Si Negativa de ANSES (original) Si Certificado de discapacidad (original) Si RÉGIMEN DE CARENCIAS MÉDICAS- HABILITACIÓN PROGRESIVA Si get_app RÉGIMEN DE CARENCIAS ODONTOLÓGICAS - HABILITACIÓN PROGRESIVA Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0bd1657a-a0b0-ee11-baa9-005056a1885b",
+  "title": "ASIGNACIÓN POR HIJO",
+  "description": "Solicitud de pago de una suma mensual por cada hijo menor de 18 años que se encuentre a cargo del agente que presta servicios en la Administración Pública Provincial. Dirigido a todo agente que desempeñe funciones dentro del ámbito de la Administración Pública Provincial. Toda la información referida a Asignaciones familiares está disponible en: https://www.cba.gov.ar/info-empleados/asignaciones-familiares/",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Completar formulario correspondiente y presentar documentación respaldatoria segpun corresponda: https://www.cba.gov.ar/info-empleados/asignaciones-familiares/ ¿Tiene vencimiento? Hasta los 18 años del hijo a cargo. El trámite deberá gestionarse en el organismo en donde el agente percibe sus haberes. Debe renovarse anualmente presentando la respectiva declaración jurada."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Declaración Jurada para Percepción de Asignaciones Familiares (F11) Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

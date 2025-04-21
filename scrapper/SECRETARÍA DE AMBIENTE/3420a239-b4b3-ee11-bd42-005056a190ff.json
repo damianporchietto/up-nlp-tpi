@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/3420a239-b4b3-ee11-bd42-005056a190ff",
+  "title": "SOLICITUD DE FINANCIAMIENTO PARA MUNICIPIOS / COMUNAS / COOPERATIVAS - PLAN PROVINCIAL PARA LA GESTIÓN INTEGRAL DE RESIDUOS",
+  "description": "Trámite para acceder al Fondo de Financiamiento Ambiental para Municipios, Comunas o Cooperativas, perteneciente al Plan Provincial para la Gestión Integral de Residuos. El Plan Provincial para la Gestión Integral de Residuos implementado por la Secretaría de Ambiente, propone 8 ejes fundamentales para garantizar una gestión eficiente de los residuos. Dentro de esos ejes se contempla la creación de un Fondo de Financiamiento Ambiental, con aportes del gobierno provincial y de los gobiernos locales, para la adquisición de equipamiento y logística que permitan optimizar la gestión de los residuos sólidos urbanos, fortaleciendo el reciclado y la economía circular de los gobiernos y entidades locales. Otro eje importante del Plan es la Cicatrización de Basurales a Cielo Abierto bajo el cual se propone cicatrizar Basurales a Cielo Abierto geolocalizados en todo el territorio de la provincia de Córdoba, una vez que se concreten las inversiones necesarias. El trámite está dirigido a Municipios, Comunas o Cooperativas que deseen acceder al fondo.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El Intendente, Presidente Comunal o Presidente de la Cooperativa que presente el trámite debe constituir cuenta de usuario de CiDi – NIVEL 2. El Intendente, Presidente Comunal o Presidente de la Cooperativa deberá iniciar el trámite como Representante Legal del Municipio, Comuna o Cooperativa que encabeza, según corresponda. Para esto se deberá generar previamente una relación en CiDi sobre el servicio e-trámite. Para mayor detalle consultar el instructivo: I SIG 020 Instructivo Representante Legal CiDi en el siguiente link: https://portaltecnologico.cba.gov.ar/innovacion/herramientas-tecnologicas/ciudadano-digital/listado-de-documentos-cidi/ En el e-trámite, en la sección “Iniciador” el solicitante deberá seleccionar su representado (Municipio, Comuna o Cooperativa) entre los valores del desplegable del campo “Representado”. El estado / resolución del trámite se informará por CiDi. En caso de rechazo se indicarán los motivos que dieron lugar a dicho rechazo. En caso de otorgar el subsidio solicitado, el pago correspondiente se depositará en la cuenta bancaria de la entidad beneficiaria declarada en el e-trámite. Para esto previamente deberá registrar la cuenta bancaria en el “Portal de Pago a Beneficiarios” de CiDi. La misma deberá estar asociada al CUIT del Municipio, Comuna o Cooperativa. Toda la documentación solicitada deberá estar firmada por el Intendente, Presidente Comunal o Presidente de la Cooperativa según corresponda y el Responsable de la Ejecución de la obra. Ante la falta de información o documentación solicitada en el e-trámite correspondiente, o en caso de estar presentado en forma defectuosa o incompleta, el proyecto no será procesado y será rechazado por el personal de la Secretaría de Ambiente."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Adjuntar en e-trámite, según corresponda, la documentación requerida en: E DRSU 001 Requisitos Mínimos de Admisibilidad Gestión Residuos Mun Com Coop exit_to_app Ver detalle Cidi -Nivel 2 exit_to_app Ver detalle Declarar CBU de la entidad beneficiaria (CUIT) en Portal de Pagos a Beneficiarios exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Presidente de la Comunidad / Ente Regional o Intendente / Presidente Comunal que cumpla con los requisitos especificados."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular Horario de atención: Online Por consultas comunicarse con la Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular. Horario de atención: 8 a 18 hs. Teléfono: 0351 434-3311\""
+    }
+  ]
+}

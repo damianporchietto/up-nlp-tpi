@@ -1,0 +1,35 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/275ead14-aeb0-ee11-baa9-005056a1885b",
+  "title": "CERTIFICADO DE ANTECEDENTES PARA ARGENTINOS NATIVOS O POR OPCIÓN",
+  "description": "Solicitud de constancia que certifique que una persona registra o no antecedentes penales y/o contravencionales en la jurisdicción de la Provincia de Córdoba. Comúnmente denominado \"Certificado de Buena Conducta\". Está dirigido a todos los ciudadanos argentinos, nativos o por opción que fijen domicilio en la Provincia de Córdoba. ¿Cuándo es necesario realizarlo? Cuando el interesado lo requiera a partir de los 16 años.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "¿Cómo me informan de la resolución del trámite? Consultar el trámite on-line https://sistemas.policiacordoba.gov.ar/consultacertificado/. ¿Tiene vencimiento? Quien le otorga el vencimiento es la entidad , organismo o institución que lo requiera. MÁS INFORMACIÓN: https://www.policiacordoba.gov.ar/tramites-y-servicios/certificado-de-antecedentes/"
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Tener domicilio en Córdoba. DNI en perfecto estado."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Comprobante de pago Tasa Retributiva de Servicio Si DNI (original) Si"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Policía de la Provincia de Córdoba"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/11fbf976-9dbb-ee11-bd42-005056a190ff",
+  "title": "SOLICITUD TRÁMITES ANTE EL REGISTRO NACIONAL DE LA PROPIEDAD DEL AUTOMOTOR PARA LOS VEHÍCULOS DE LA FLOTA PROVINCIAL",
+  "description": "Trámite para gestionar la presentación ante un registro seccional del RNPA de las siguientes solicitudes tipo: - Inscripción inicial. - Transferencia. - Reposición de chapa patente, cédula de identificación, título (duplicados, triplicados, etc.). - Cambio de tipo. - Cambio de motor. - Baja registral, total o parte del vehículo. - Otros. Este trámite va dirigido a los responsables de los servicios administrativos de cada jurisdicción de administración centralizada y terceros interesados (que tengan interés legítimo) referido a la flota vehicular de la Provincia de Córdoba.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "-Una vez iniciada la solicitud, la dirección de patrimonial de la secretaría de gestión de Inmuebles, seguros y asuntos legales requerirá los formularios y documentación necesarios para la presentación del trámite y el pago correspondiente mediante depósito en la cuenta bancaria del Registro del Automotor. Con la documentación y el comprobante de pago, la dirección de patrimonial podrá ingresar el trámite. -En los casos de gestionar solicitudes ante el Registro de la Propiedad del Automotor en nombre del Gobierno de la Provincia mediante gestorías externas, también se debe iniciar este trámite obligatoriamente para la firma de los formularios por parte del funcionario autorizado por el Gobierno de la Provincia de Córdoba. -Tener presente instructivo para asignación de representante legal y asignación de servicios en ciudadano digital→ Link a https://portaltecnologico.cba.gov.ar/wp-content/uploads/2023/01/I_SIG_020_Instructivo_Representante_Legal_CiDi.pdf"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Titular de los servicios administrativos de cada jurisdicción, Intendentes/ jefes comunales, Representantes legales/ apoderados, con autorización CiDi para la presentación del trámite en nombre"
+    }
+  ]
+}

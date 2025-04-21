@@ -1,0 +1,27 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/85047d81-daeb-ea11-bcdf-005056a190ff",
+  "title": "CERTIFICADO DE ESTUDIOS PRIMARIOS",
+  "description": "Solicitud del certificado de finalización de estudios. Esta dirigido a todas las personas que hayan terminado los estudios primarios en la Provincia de Córdoba.",
+  "requirements": [
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Otorgar verbalmente al agente: DNI/ lugar y fecha de nacimiento/nombre de centro educativo donde terminó la primaria/localidad y departamento del centro educativo/fecha de egreso."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Centro de Documentación - Ministerio de Educación Dirección: SANTA ROSA 751 Horario de atención: Días hábiles de 08.00 a 20.00 hs. PB / Bº CENTRO / CORDOBA"
+    }
+  ]
+}

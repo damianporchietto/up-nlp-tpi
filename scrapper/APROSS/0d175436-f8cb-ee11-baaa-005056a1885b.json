@@ -1,0 +1,15 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0d175436-f8cb-ee11-baaa-005056a1885b",
+  "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS, MAYORES, ESTUDIANTES Y SIN OBRA SOCIAL",
+  "description": "Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, del hijo o hijastro estudiante, soltero y mayor a 21 años dentro de su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Titular Obligatorio afiliar a su hijo o hijastro estudiante sin obra social, sin aporte adicional y sin la aplicación del régimen de restricción inicial y no permanente de prestaciones. En el caso del hijastro: la afiliación se encontrará condicionada a la vigencia de la previa afiliación de su progenitor dentro del grupo familiar del Titular Requiere de renovación anual, cada 30/04. Caso contrario, esta afiliación continuará vigente con aporte adicional hasta que el/la Afiliado/a Titular cumplimente con dicha renovación o, bien, requiera la baja afiliatoria. Asimismo, una vez alcanzando los 26 años, opera una reclasificación automática y la afiliación continuaá vigente en el carácter de \"Afiliado Voluntario\", devengando aporte adicional, hasta que el/la Afiliado/a Titular requiera su desvinculación. Los aportes afiliatorios que pudiesen devengarse son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

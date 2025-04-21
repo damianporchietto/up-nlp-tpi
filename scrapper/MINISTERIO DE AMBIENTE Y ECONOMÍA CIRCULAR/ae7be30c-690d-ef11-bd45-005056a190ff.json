@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/ae7be30c-690d-ef11-bd45-005056a190ff",
+  "title": "AUDITORÍA AMBIENTAL - SIN RESOLUCIÓN PREVIA (ANEXO B)",
+  "description": "Se debe iniciar el trámite por esta vía (ANEXO B), si el emprendimiento/actividad se encuentra ejecutado y NO tiene resolución previa. Conforme lo previsto por las leyes provinciales N°7.343, N°10.208 y N°10.830 y sus decretos reglamentarios, la Auditoría Ambiental es un instrumento de gestión que consiste en un proceso de revisión sistemático, documentado y objetivo de una actividad o acción determinada que apunta a identificar, evaluar, corregir y controlar el potencial o real deterioro ambiental, facilitando la comunicación e información tanto por parte de los organismos públicos como de la opinión pública en general. Sus objetivos son la evaluación del grado de cumplimiento ambiental de las normativas vigentes de esas actividades o acciones, los incidentes, las condiciones, los sistemas de gestión adoptados y de la información sobre esos temas. Las Auditorías de Cumplimiento son llevadas a cabo por la Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular. Cabe destacar que las Auditorías Ambientales del Plan de Gestión Ambiental son instrumentos complementarios e integrantes de dicho plan, serán exigidas al proponente y controladas por el Ministerio de Ambiente y Economía Circular. El trámite consiste en la presentación de la documentación e información necesaria a los fines que la Autoridad efectúe su control técnico legal y emita el Certificado Ambiental o la correspondiente resolución administrativa. En el marco de la Ley Provincial N°10.618 de Simplificación y Modernización de la Administración Pública se actualizó la modalidad de ingreso de trámites. El trámite va dirigido a todos los responsables de emprendimiento que no hayan presentado oportunamente el Aviso de Proyecto (AP) / Estudio de Impacto Ambiental (EsIA) y que ya estén en funcionamiento.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El proponente debe constituir cuenta de usuario de CiDi – NIVEL 2. Se deberá tener en cuenta que se solicita diferente información según el rubro al que corresponda. Dentro de cada declaración jurada se indica qué información corresponde según la clasificación de rubros (Ver: Tabla Referencias Ítems por Rubro Auditorías Ambientales, en sección \"¿Qué necesito para hacerlo?\"). Una vez completadas las DDJJ, guardarlas en formato PDF. Luego, se debe ingresar al sistema de Auditoría Ambiental, registrarse y cargar la documentación en cada posición según corresponda. La resolución del trámite se informará por CiDi. Tasas: Tasa de análisis y estudio de documentación técnica: Se debe abonar en inicio de trámite. Tasa por otorgamiento de documento resolutivo: Se abonará durante el trámite luego de ser notificado. Tasa por auditoría In Situ: Se abonará durante el trámite luego de ser notificado. Otras Tasas: En caso de corresponder, será notificado. Tasas para caza deportiva en grupos (turismo cinegético) o en cotos de caza. Para esta actividad se deberán abonar además las tasas por: - Habilitación anual de guía (81.1.3.1). - Habilitación de campos (81.1.3.3). Posee vencimiento cada 3 años. Debe renovarse mediante la presentación del ANEXO A. En caso de que el técnico no esté inscripto en el registro de profesionales (RETEP), para obtener información ingresar vía CiDi a la guía de trámite: \"REGISTRO TEMÁTICO DE PROFESIONALES [RETEP]\". El Ministerio de Ambiente y Economía Circular podrá requerir documentación complementaria y/o estudios específicos para una correcta evaluación del emprendimiento. Por cualquier consulta dirigirse a: auditoriasambientalescba@gmail.com o comunicarse al número 0351-4343310 al 15 int. 230."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Seleccionar rubro correspondiente acorde a la siguiente tabla. exit_to_app Ver detalle Descargar, completar y adjuntar en el sistema de Auditoría Ambiental, los cinco formularios DDJJ. (Podrá descargarlos en la siguiente sección). Abonar tasa de análisis y estudio de documentación técnica (81.2.1). Luego de ser notificado, abonar tasa por otorgamiento de documento resolutivo del proyecto (81.2.2). Luego de ser notificado, abonar tasa por otorgamiento de documento resolutivo del proyecto (81.2.2). Cidi -Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original F DAA 010 DDJJ Inicio de trámite No get_app F DAA 011 DDJJ Actividad No get_app F DAA 013 DDJJ Antecedentes ANEXO B No get_app F DAA 015 DDJJ Plan de Gestión Ambiental No get_app F DAA 014 DDJJ Monitoreos No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Responsable profesional con título habilitante registrado en RETEP."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Ministerio de Ambiente y Economía Circular Horario de atención: Online"
+    }
+  ]
+}

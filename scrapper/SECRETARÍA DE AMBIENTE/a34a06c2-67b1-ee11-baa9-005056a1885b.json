@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/a34a06c2-67b1-ee11-baa9-005056a1885b",
+  "title": "DENUNCIA POLICIA AMBIENTAL",
+  "description": "Denuncia de infracciones a la normativa ambiental e hídrica, dentro del territorio de la Provincia de Córdoba, indicando con la mayor precisión todos los datos pertinentes y ubicación geográfica, en lo posible con georeferencias, cuando no es un domicilio con calle y número. Para mayor información respecto de la competencia de la Dirección de Policía Ambiental y la normativa vigente se puede consultar: https://ministeriodeserviciospublicos.cba.gov.ar/direccion-de-policia-ambiental/que-denunciar-y-que-no/",
+  "requirements": [
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "El ciudadano que detecte cualquier actividad que pueda estar afectando el ambiente puede realizar la denuncia a través del link indicado, mediante su CIDI o de forma anónima."
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sin costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "No, no se necesita turno."
+    }
+  ]
+}

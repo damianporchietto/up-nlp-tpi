@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7c5b5435-b1b0-ee11-baa9-005056a1885b",
+  "title": "ASIGNACIÓN POR HIJO CON DISCAPACIDAD",
+  "description": "Solicitud de pago de una suma mensual por cada hijo/a con discapacidad que se encuentre a cargo del/la agente, sin límite de edad y a partir del mes en que se acredite tal condición. Dirigido a uno sólo de los progenitores, guardadores, tutores o curadores a la persona. Es necesario presentar la documentación respaldatoria requerida por la Unidad de Recursos Humanos correspondiente. ¿Cuándo es necesario realizarlo? Cuando la persona interesada lo requiera.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Debe renovarse anualmente presentando la respectiva Declaración Jurada. Completar formulario correspondiente y presentar documentación respaldatoria (Certificado Único de Discapacidad emitido por las Juntas de Discapacidad de la Subsecretaría de Discapacidad, Rehabilitación e Inclusión del Ministerio de Salud) según corresponda: https://www.cba.gov.ar/asignaciones-familiares-clasificacion/"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Declaración Jurada para Percepción de Asignaciones Familiares (F11) Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

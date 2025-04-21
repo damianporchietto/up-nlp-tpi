@@ -1,0 +1,31 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/9e65428a-d7b3-ee11-baa9-005056a1885b",
+  "title": "SOLICITUD DE AUTORIZACIÓN DE ACOPIO FORESTAL - BOSQUE NATIVO",
+  "description": "Es la solicitud de inscripción de un acopio forestal. Se define al Acopio Forestal al sitio donde se realiza la concentración de rollizo, leña, vigas, durmientes, postes, medio poste, rodrigones, varillas, varillones, carbón o carbonilla, proveniente de aprovechamientos, podas sanitarias y/o intervenciones en el Bosque Nativo, para su posterior comercialización o uso industrial. Ocasionalmente estos podrán transformar la leña larga a leña picada o trozada y/o carbón. El trámite va dirigido a titulares de predios con bosque nativo. Es necesario realizarlo cuando se desee inscribir un acopio forestal.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "El proponente debe constituir cuenta de usuario de CiDi – NIVEL 2. En el caso de que se solicite documentación adicional, deberá anexarla ingresando al e-trámite correspondiente (Podrá buscar el trámite a través de CiDi introduciendo la descripción del mismo: \"BOSQUE NATIVO - INGRESO DE DOCUMENTACIÓN ADICIONAL A UN TRÁMITE INICIADO\"). La resolución del trámite se informará por CiDi. Para operar como Acopio Forestal debe obtener autorización de la Secretaría de Ambiente. Se deberá respetar lo establecido en la Resolución aprobatoria. Una vez autorizado deberá presentar, ante la Autoridad de Aplicación, un libro contable en blanco. Una vez habilitado por el Área de Bosques anotará entradas y salidas de productos del acopio. Si no es posible demostrar el carácter que detenta respecto del predio en el que se pretende instalar el acopio forestal, la solicitud será rechazada. En caso de rechazo se indicarán los motivos que dieron lugar al mismo. Se deberá tener en el acopio forestal la Resolución aprobatoria emitida por la Secretaría de Ambiente. Policía Ambiental se encargará de realizar los controles que correspondan y en caso de no respetar lo establecido procederá al Cese Preventivo del acopio forestal e inicio de sumario administrativo. Posteriormente se procederá a la revocación de la Resolución de aprobación del Acopio Forestal. Mientras el acopio y acopiador se encuentre con expediente de infracción no resuelto en la Dirección de Policía Ambiental no se autorizará la inscripción hasta tanto se resuelva. No posee vencimiento."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Descargar, completar y adjuntar en e-trámite el formulario: F AB 013 Solicitud de Autorización para Acopios Forestales. (Podrá descargarlo en la siguiente sección). Adjuntar en e-trámite la documentación requerida en: E AB 012 Requisitos para Solicitud de Acopios Forestales. exit_to_app Ver detalle CiDi Nivel 2 exit_to_app Ver detalle Abonar tasa de registro de acopio de productos forestales de bosque nativo (85.3.6)."
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original F AB 013 Formulario para la solicitud de autorización para acopios forestales No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Cualquier persona cumpliendo con los requisitos especificados"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo. exit_to_app Ver costo"
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular Horario de atención: Online Por consultas comunicarse con la Secretaría de Desarrollo Sostenible del Ministerio de Ambiente y Economía Circular. Horario de atención: 8 a 18 hs. Teléfono: 0351 434-3311\""
+    }
+  ]
+}

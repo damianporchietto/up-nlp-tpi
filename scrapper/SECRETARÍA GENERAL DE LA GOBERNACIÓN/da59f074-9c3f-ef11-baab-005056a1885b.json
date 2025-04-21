@@ -1,0 +1,19 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/da59f074-9c3f-ef11-baab-005056a1885b",
+  "title": "EXAMEN TOXICOLÓGICO. TÍTULO II LEY N° 10954",
+  "description": "Trámite vinculado a la presentación del examen toxicológico que deben realizarse los funcionarios y funcionarias provinciales, según lo establecido por el Título II de la Ley provincial N° 10954, su Decreto Reglamentario N°181/2024. Está destinado a las personas que desempeñan funciones por elección popular, Gobernador, Vicegobernador, Legisladores y Tribunos de Cuenta, los Ministros, Secretarios, Directores y Subdirectores, Asesores y toda persona que ejerza funciones equivalentes. El certificado debe presentarse obligatoriamente dentro de las 48 horas de su obtención, a través de la plataforma Empleado Digital > Solicitutes/Inscripciones > Examen Toxicológico. Título II Ley N° 10954 . Las funcionarias y funcionarios que se desempeñen en el ámbito del Poder Ejecutivo Provincial que no tengan acceso al aplicativo EDi, podrán hacerlo desde aquí.",
+  "requirements": [
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "CiDi Nivel 2 exit_to_app Ver detalle"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Certificado Toxicológico Si get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}

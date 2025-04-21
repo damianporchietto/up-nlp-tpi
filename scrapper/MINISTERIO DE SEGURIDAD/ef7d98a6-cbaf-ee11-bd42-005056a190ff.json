@@ -1,0 +1,35 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/ef7d98a6-cbaf-ee11-bd42-005056a190ff",
+  "title": "CAMBIO DE MOTOR DE EMBARCACIÓN",
+  "description": "El trámite es de forma digital y se realiza a los fines de reemplazar un motor ya incorporado al casco registrado en el Sistema de Seguridad Náutica por otro motor determinado. Dirigido al titular de una matrícula que desee cambiar el motor de su embarcación. Al iniciar el trámite podrá pagar la tasa correspondiente y reservar turno para la Inspección de la Embarcación.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Si abonó algún tipo de deuda debe presentar comprobante de pago en el tramite iniciado. Lugar de pago de Tasa retributiva de Servicios o tasa anual: Banco de Córdoba, Rapipago, PAGO Fácil, Cobroexpress y medios digitales. RECOMENDAMOS: Antes de concretar la compra del Motor verificar, mediante numero de serie, si esta registrado. - Todos los requisitos son obligatorios en caso contrario no se dará curso al tramite. - Para las embarcaciones accionadas a motor de mas de 10 HP es obligatorio al momento de navegar poseer licencia de conducir náutica."
+    },
+    {
+      "title": "¿Qué necesito para hacerlo?",
+      "content": "Inspección Técnica Apta vigente exit_to_app Ver detalle Libre deuda de tasas anuales CIDI - Tener cuenta de Ciudadano Digital, nivel 2 Comprobante de pago Tasa Retributiva de Servicio"
+    },
+    {
+      "title": "¿Qué documentación presentar?",
+      "content": "Nombre Descripción Original Boleto de Compraventa Si Factura de compra Si Planilla de Inspección Técnica de Embarcación Deportiva Apta Si Comprobante de pago Tasa Retributiva de Servicio Si Matrícula de la embarcación Si Formulario N°6 Solicitud de Cambio de motor de embarcación No get_app"
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal o por representante con poder especial"
+    },
+    {
+      "title": "¿Tiene Costo?",
+      "content": "Sí, tiene costo."
+    },
+    {
+      "title": "¿Necesito turno?",
+      "content": "Sí, se necesita turno."
+    },
+    {
+      "title": "¿Dónde puedo realizarlo?",
+      "content": "Delegación Almafuerte Seguridad Náutica Dirección: Av Islas Malvinas 618 Entre Av Buenos Aires y Mendoza Delegación Cruz del Eje Seguridad Náutica Dirección: Av Sabattini 250 Al lado Secretaria de Turismo Cruz del Eje Delegación Córdoba Seguridad Náutica Dirección: Av Ricchieri 1819 Ricchieri esquina Gobernador Roca, Parque Sarmiento, contiguo a la Ciudad de las Artes. Delegación Embalse Seguridad Náutica Parador playa Overnight Delegación Los Molinos Seguridad Náutica Frente Comuna Villa Ciudad América Delegación Miramar Seguridad Náutica Dirección: Velez Sarsfield 140 Junto a Cuartel de Bomberos Voluntarios Delegación Villa Carlos Paz Seguridad Náutica Dirección: Av Arturo Humberto Illia 1400 Bahía del Gitano frente Asoc Cbesa Remo Delegación Villa Las Rosas Seguridad Náutica Dirección: Av Belgrano Sur 284 Pegado a Sucursal de Correo Argentino Delegación Villa Rumipal Seguridad Náutica Dirección: Rogelio Gomez 139 Dentro Camping del Balneario Municipal"
+    }
+  ]
+}

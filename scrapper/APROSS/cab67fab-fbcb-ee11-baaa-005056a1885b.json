@@ -1,0 +1,15 @@
+{
+  "url": "https://cidi.cba.gov.ar/portal-publico/tramite/cab67fab-fbcb-ee11-baaa-005056a1885b",
+  "title": "AFILIACION A APROSS DE PADRES SIN OBRA SOCIAL",
+  "description": "Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, del progenitor sin obra social y a su cargo dentro de su grupo familiar. El alta debe ser solicitada por el Titular.",
+  "requirements": [
+    {
+      "title": "¿Qué otro dato debe tenerse en cuenta?",
+      "content": "Permite al Titular Obligatorio afiliar a su progenitor, sin obra social y que se encuentra a su cargo, dentro de su grupo familiar. Se trata de una afiliación sin aporte adicional y sin la aplicación del régimen de restricción inicial y no permanente de prestaciones. Procederá esta afiliación siempre que el cónyuge del progenitor del Titular no cuente con obra social obligatoria. Requiere de renovación anual. Caso contrario, esta afiliación continuará vigente con aporte adicional hasta que el/la Afiliado/a Titular cumplimente con dicha renovación o, bien, requiera la baja afiliatoria. Los aportes afiliatorios son a mes completo y se actualizan trimestralmente."
+    },
+    {
+      "title": "¿Quién puede hacerlo?",
+      "content": "Personal e Intransferible"
+    }
+  ]
+}
