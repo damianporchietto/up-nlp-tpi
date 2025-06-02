@@ -3,7 +3,7 @@ import unicodedata
 import nltk
 from nltk.corpus import stopwords
 
-# Asegura que los recursos estén disponibles
+# Asegura que los recursos se encuentren disponibles
 try:
     nltk.data.find("corpora/stopwords")
 except LookupError:
@@ -19,7 +19,7 @@ def normalize_text(text: str) -> str:
     if not isinstance(text, str):
         return ""
 
-    # Minúsculas
+    # Minssculas
     text = text.lower()
 
     # Quitar tildes y acentos
@@ -28,10 +28,10 @@ def normalize_text(text: str) -> str:
         if unicodedata.category(c) != 'Mn'
     )
 
-    # Quitar caracteres especiales (mantener letras, números y espacios)
+    # Quitar caracteres especiales (mantener letras, numeros y espacios)
     text = re.sub(r"[^a-z0-9áéíóúüñ\s]", " ", text)
 
-    # Eliminar múltiples espacios
+    # Eliminar multiples espacios
     text = re.sub(r"\s+", " ", text)
 
     return text.strip()
@@ -39,7 +39,7 @@ def normalize_text(text: str) -> str:
 
 def remove_stopwords(text: str) -> str:
     """
-    Elimina stopwords en español.
+    Elimina stopwords
     """
     tokens = text.split()
     filtered = [word for word in tokens if word not in spanish_stopwords]
@@ -48,7 +48,7 @@ def remove_stopwords(text: str) -> str:
 
 def clean_and_tokenize(text: str) -> str:
     """
-    Aplica limpieza + remoción de stopwords.
+    Aplicar limpieza + remoción de stopwords
     """
     text = normalize_text(text)
     text = remove_stopwords(text)
@@ -58,6 +58,7 @@ def clean_and_tokenize(text: str) -> str:
 def flatten_list_field(lst):
     """
     Convierte listas (de pasos o requisitos) en un string limpio.
+    Se puede obviar si es necesario
     """
     if not isinstance(lst, list):
         return ""
