@@ -1,3 +1,5 @@
+from preprocessing import preprocess_document
+
 import os
 import json
 from pathlib import Path
@@ -28,7 +30,7 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
         try:
             with open(json_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                
+            """    
             # Extract content from JSON structure
             content_parts = []
             content_parts.append(f"Title: {data.get('title', 'No title')}")
@@ -52,7 +54,22 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
                     }
                 )
             )
+            """
+            # Preprocesar el contenido del JSON
+            preprocessed = preprocess_document(data)
             
+            # Crear el documento con el texto procesado
+            documents.append(
+                Document(
+                    page_content=preprocessed["content"],
+                    metadata={
+                        "source": str(json_path),
+                        "title": preprocessed["title"],
+                        "url": preprocessed["url"]
+                    }
+                )
+            )
+
         except Exception as e:
             print(f"Error processing {json_path}: {e}")
     
