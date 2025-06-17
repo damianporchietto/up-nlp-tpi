@@ -1,0 +1,932 @@
+[
+  {
+    "question": "¿Qué trámite permite afiliar a un abuelo dentro del grupo familiar?",
+    "answer": "El trámite que permite afiliar a un abuelo dentro del grupo familiar es la \"AFILIACIÓN A APROSS DE ABUELOS\". A continuación, se detallan los requisitos y procedimientos específicos:\n\n1. **Quién puede solicitarlo**: El alta debe ser solicitada por el Afiliado Titular Obligatorio.\n\n2. **Características de la afiliación**:\n   - Se trata de una afiliación con aporte adicional.\n   - Se aplica un régimen de restricción inicial y no permanente de prestaciones.\n   - No requiere de renovación.\n   - Los aportes afiliatorios son a mes completo y se actualizan trimestralmente.\n\n3. **Requisitos para realizar el trámite**:\n   - Tener una cuenta en Ciudadano Digital (nivel 2 verificada).\n   - Documentación a presentar (escaneada y en formato PDF):\n     - Partida de nacimiento (original).\n     - Régimen de carencias médicas - habilitación progresiva.\n     - Régimen de carencias odontológicas - habilitación progresiva.\n\nPara más información, puedes consultar el trámite en el siguiente enlace: [AFILIACIÓN A APROSS DE ABUELOS](https://cidi.cba.gov.ar/portal-publico/tramite/8777b6d5-04cc-ee11-bd43-005056a190ff).",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE ABUELOS\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar a su abuelo/a dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n\n¿Qué otro da...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/8777b6d5-04cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE ABUELOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8777b6d5-04cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS (CON CARENCIA)\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar, con carencias a su nieto dentro de su grupo familiar. El alta debe ser solicitada por...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e7217759-05cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE NIETOS (CON CARENCIA)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e7217759-05cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su nieto recién nacido dentro de su grupo familiar, sin la apli...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/563a36b9-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/563a36b9-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio afiliar a su hijo/a o hijastro/a mayor no estudiante o con obra social dentro de su grupo familiar. Se trata de una afil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué documentación se necesita para afiliar a un ex cónyuge?",
+    "answer": "Para afiliar a un ex cónyuge a APROSS, se necesita presentar la siguiente documentación:\n\n1. **Sentencia firme de divorcio** (original).\n2. **Régimen de carencias médicas - habilitación progresiva** (si corresponde).\n3. **Régimen de carencias odontológicas - habilitación progresiva** (si corresponde).\n\nAdemás, es necesario contar con una **Cuenta Verificada Nivel 2 en Ciudadano Digital** y adjuntar toda la documentación escaneada en formato PDF.\n\nRecuerda que el alta debe ser solicitada por el Afiliado Titular Obligatorio.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del cónyuge sin obra social. La re...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/66b3e7f8-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/66b3e7f8-fdcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Cuál es el nivel de cuenta requerido en Ciudadano Digital para realizar la afiliación de cónyuge sin obra social?",
+    "answer": "No tengo información específica sobre el nivel de cuenta requerido en Ciudadano Digital para realizar la afiliación de cónyuge sin obra social. Te recomiendo consultar directamente con la oficina gubernamental correspondiente para obtener detalles precisos sobre este trámite.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su conviviente sin obra social dentro de su grupo familiar. Se trata de una afiliación sin aporte adicional y sin la ap...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e4e3587a-facb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CONVIVIENTES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e4e3587a-facb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d5f3100d-06cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/036b9492-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE PADRES CON RECURSOS PROPIOS O OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/036b9492-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Se requiere renovación para la afiliación de abuelos a APROSS?",
+    "answer": "No, no se requiere renovación para la afiliación de abuelos a APROSS. Esta afiliación se realiza con un aporte adicional y se aplica el régimen de restricción inicial y no permanente de prestaciones. \n\n**Requisitos para la afiliación de abuelos a APROSS:**\n1. **Ciudadano Digital**: Tener una cuenta verificada nivel 2.\n2. **Documentación a presentar** (escaneada y en formato PDF):\n   - Partida de nacimiento (original).\n   - Régimen de carencias médicas - habilitación progresiva.\n   - Régimen de carencias odontológicas - habilitación progresiva.\n\nPara más información, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE ABUELOS\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar a su abuelo/a dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n\n¿Qué otro da...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/8777b6d5-04cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE ABUELOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8777b6d5-04cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS (CON CARENCIA)\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar, con carencias a su nieto dentro de su grupo familiar. El alta debe ser solicitada por...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e7217759-05cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE NIETOS (CON CARENCIA)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e7217759-05cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su nieto recién nacido dentro de su grupo familiar, sin la apli...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/563a36b9-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/563a36b9-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE PADRES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del progenitor sin recursos propios ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/7d4bd195-51cb-ee11-bd43-005056a190ff.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE PADRES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7d4bd195-51cb-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué pasa si no se renueva la afiliación del cónyuge sin obra social?",
+    "answer": "Si no se renueva la afiliación del cónyuge sin obra social, esta continuará vigente con un aporte adicional hasta que el Afiliado Titular cumpla con la renovación o solicite la baja afiliatoria. Es importante tener en cuenta que los aportes afiliatorios que pudiesen devengarse son a mes completo y se actualizan trimestralmente.\n\nPara realizar la renovación, se necesita:\n\n1. **Ciudadano Digital** - Cuenta verificada nivel 2.\n2. **Documentación a adjuntar** - Escaneada y en formato PDF.\n\nSi necesitas más información, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del cónyuge sin obra social. La re...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/66b3e7f8-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/66b3e7f8-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CONVIVIENTES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del conviviente sin obra socia...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2a9041ad-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CONVIVIENTES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2a9041ad-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué se necesita para acceder a la credencial digital de un familiar?",
+    "answer": "Para acceder a la credencial digital de un familiar, se necesita:\n\n1. **Ser Afiliado Titular Obligatorio**: Debes ser el afiliado que solicita la asignación de un representante.\n2. **Asignación de un Representante**: Puedes solicitar que un familiar a tu cargo sea representado para la visualización de su credencial digital.\n3. **El Representante**: Puede ser o no un afiliado a la APROSS y debe gestionar trámites o acompañar en la atención médica del familiar.\n\nPara situaciones particulares o consultas adicionales, se recomienda contactar a la casilla de correo electrónico: afiliaciones.apross@cba.gov.ar.",
+    "sources": [
+      {
+        "snippet": "Title: ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la asignación de un representante de algún familiar a su c...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/00811aa7-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/00811aa7-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d5f3100d-06cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/91dcafa1-0bcc-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HERMANOS SOLTEROS, CON O SIN DISCAPACIDAD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/91dcafa1-0bcc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/036b9492-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE PADRES CON RECURSOS PROPIOS O OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/036b9492-03cc-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué diferencia hay entre la afiliación de un cónyuge y de un ex cónyuge respecto a los aportes?",
+    "answer": "La diferencia principal entre la afiliación de un cónyuge y de un ex cónyuge respecto a los aportes es la siguiente:\n\n1. **Afiliación de cónyuge (con o sin obra social)**:\n   - **Aporte**: Se requiere un aporte adicional.\n   - **Régimen de prestaciones**: Se aplica el régimen de restricción inicial y no permanente de prestaciones.\n   - **Renovación**: No requiere renovación anual.\n\n2. **Afiliación de ex cónyuge**:\n   - **Aporte**: También se requiere un aporte adicional.\n   - **Régimen de prestaciones**: Se aplica el régimen de restricción inicial y no permanente de prestaciones.\n   - **Renovación**: No requiere renovación.\n\nAmbas afiliaciones tienen un aporte adicional y no requieren renovación, pero se diferencian en el estado civil del afiliado (cónyuge actual vs. ex cónyuge). \n\nPara más detalles o información específica, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro estudiante sin obra social, sin aporte adicional y sin la aplicación del régimen de restricción inic...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/0d175436-f8cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS, MAYORES, ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0d175436-f8cb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué trámite se debe hacer para dar de baja a un familiar a cargo?",
+    "answer": "Para dar de baja a un familiar a cargo, el Afiliado Titular Obligatorio debe realizar el siguiente trámite:\n\n### Procedimiento:\n1. **Solicitar la baja afiliatoria**: Esta solicitud debe ser formulada por el Titular.\n\n### Requisitos:\n- **Ciudadano Digital**: Tener una cuenta verificada de nivel 2.\n- **Documentación a adjuntar** (escaneada y en formato PDF):\n  - **Partida de Defunción**: Si corresponde.\n  - **Sentencia firme de divorcio**: Si corresponde.\n\n### Consideraciones:\n- Si la solicitud se realiza antes del quinto día hábil del mes, el Titular no verá descuento de aporte por su familiar en el próximo recibo de haberes.\n\nPara más detalles, puedes consultar el trámite en el siguiente enlace: [Baja de la Afiliación de Familiar a Cargo](https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b).",
+    "sources": [
+      {
+        "snippet": "Title: BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular....",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/5311625a-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro, sin obra social, con discapacidad o que se encuentra incapacitado para el trabajo. Se trata de una ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/fb6ba352-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES E INCAPACITADOS PARA EL TRABAJO O CON DISCAPACIDAD, SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb6ba352-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional de su hijo o hijastro estudiante sin obra social. Se trata de un trá...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/da1dca1c-fccb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE HIJOS o HIJASTROS SOLTEROS, MAYORES (HASTA 26 AÑOS), ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/da1dca1c-fccb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio afiliar a su hijo/a o hijastro/a mayor no estudiante o con obra social dentro de su grupo familiar. Se trata de una afil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué documentación se exige para dar de baja a un familiar fallecido?",
+    "answer": "Para dar de baja a un familiar fallecido, se requiere presentar la siguiente documentación:\n\n1. **Partida de Defunción** (original).\n2. **Sentencia firme de divorcio** (si corresponde).\n\nEs importante que la solicitud de baja sea realizada por el Afiliado Titular Obligatorio. Para más detalles, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué documentación presentar?: Nombre Descripción Original DNI (original) Si Partida de Defunción Si Constancia de Opción del seguro de vida Adicional Si Certificado emitido por el Poder Judicial sobr...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/dffd3035-e5ab-ee11-baa9-005056a1885b.json",
+        "title": "PAGO SEGURO DE VIDA / DENUNCIA POR FALLECIMIENTO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/dffd3035-e5ab-ee11-baa9-005056a1885b"
+      },
+      {
+        "snippet": "Title: BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular....",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/5311625a-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: Documentación pendiente - Denuncia de Fallecimiento\n\nDescription: Haber iniciado un trámite del seguro de vida y recibir una notificación vía cidi ( del iniciador) que falta documentación para ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/2b3d4bfc-e4ab-ee11-baa9-005056a1885b.json",
+        "title": "Documentación pendiente - Denuncia de Fallecimiento",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2b3d4bfc-e4ab-ee11-baa9-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: Ser heredero del asegurado y que este no haya designado beneficiario y/o que el beneficiario designado se encuentre previamente fallecido al asegurado Ser mayor de 18 años...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/03165a10-e4ab-ee11-baa9-005056a1885b.json",
+        "title": "PAGO SEGURO DE VIDA/ DENUNCIA POR FALLECIMIENTO SIN BENEFICIARIO DESIGNADO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/03165a10-e4ab-ee11-baa9-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Es obligatorio que el representante que accede a la credencial digital esté afiliado a APROSS?",
+    "answer": "No, no es obligatorio que el representante que accede a la credencial digital esté afiliado a APROSS. El representante puede ser o no un afiliado. Para situaciones particulares, se recomienda formular consultas a la casilla de correo electrónico: afiliaciones.apross@cba.gov.ar.",
+    "sources": [
+      {
+        "snippet": "Title: ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la asignación de un representante de algún familiar a su c...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/00811aa7-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/00811aa7-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: TOKEN/CREDENCIAL DIGITAL\n\nDescription: TOKEN/CREDENCIAL DIGITAL APROSS\n\n¿Quién puede hacerlo?: Personal o por representante con poder especial\n\n¿Necesito turno?: Sí, se necesita turno. Medios 1...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/27d86a75-45f7-ee11-bd45-005056a190ff.json",
+        "title": "TOKEN/CREDENCIAL DIGITAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/27d86a75-45f7-ee11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Requisitos para la afiliación de titulares - Ser titular de una Pensión Graciable o No Contributiva - Original y fotocopia del DNI del titular - Original y foto...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/f112197c-bbf5-ee11-baab-005056a1885b.json",
+        "title": "PROGRAMA FEDERAL INCLUIR SALUD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/f112197c-bbf5-ee11-baab-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: A esta afiliación no se le aplica el régimen de restricción inicial y no permanente de prestaciones. La afiliación de los Agentes contratados/Interinos/Suplente...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97381a0c-4bcb-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE TITULARES OBLIGATORIOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97381a0c-4bcb-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué tipo de cuenta digital se necesita para cualquier trámite relacionado con afiliaciones?",
+    "answer": "Para cualquier trámite relacionado con afiliaciones, se necesita tener una cuenta de **Ciudadano Digital - Cuenta Verificada Nivel 2**. \n\nSi necesitas más información o detalles específicos sobre el trámite, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/036b9492-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE PADRES CON RECURSOS PROPIOS O OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/036b9492-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: A esta afiliación no se le aplica el régimen de restricción inicial y no permanente de prestaciones. La afiliación de los Agentes contratados/Interinos/Suplente...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97381a0c-4bcb-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE TITULARES OBLIGATORIOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97381a0c-4bcb-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e7217759-05cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE NIETOS (CON CARENCIA)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e7217759-05cc-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Quién puede solicitar la afiliación de un ex cónyuge?",
+    "answer": "La afiliación de un ex cónyuge a APROSS puede ser solicitada únicamente por el Afiliado Titular Obligatorio. \n\nRequisitos para realizar la solicitud:\n1. Tener una cuenta verificada de Ciudadano Digital - Nivel 2.\n2. Documentación a adjuntar escaneada y en formato PDF:\n   - Sentencia firme de divorcio.\n   - Régimen de carencias médicas - Habilitación progresiva (si corresponde).\n   - Régimen de carencias odontológicas - Habilitación progresiva (si corresponde).\n\nPara más detalles, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del cónyuge sin obra social. La re...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/66b3e7f8-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/66b3e7f8-fdcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué significa que los aportes afiliatorios son \"a mes completo\"?",
+    "answer": "La expresión \"a mes completo\" en el contexto de los aportes afiliatorios significa que los aportes se calculan y se deben abonar por el total del mes, independientemente de la fecha en que se realice la afiliación o se produzcan cambios en la situación del afiliado. Esto implica que, si se devengan aportes, estos se aplican a un mes entero y no de manera proporcional a los días efectivamente trabajados o afiliados en ese mes.\n\nSi necesitas más información específica sobre este tema, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: A esta afiliación no se le aplica el régimen de restricción inicial y no permanente de prestaciones. La afiliación de los Agentes contratados/Interinos/Suplente...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97381a0c-4bcb-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE TITULARES OBLIGATORIOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97381a0c-4bcb-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional de su hijo o hijastro estudiante sin obra social. Se trata de un trá...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/da1dca1c-fccb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE HIJOS o HIJASTROS SOLTEROS, MAYORES (HASTA 26 AÑOS), ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/da1dca1c-fccb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio afiliar a su hijo/a o hijastro/a mayor no estudiante o con obra social dentro de su grupo familiar. Se trata de una afil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro estudiante sin obra social, sin aporte adicional y sin la aplicación del régimen de restricción inic...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/0d175436-f8cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS, MAYORES, ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0d175436-f8cb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué documentación respalda la afiliación de un cónyuge?",
+    "answer": "Para la afiliación de un cónyuge a APROSS, la documentación que se debe presentar es la siguiente:\n\n### Afiliación de cónyuges con obra social:\n1. **Acta de Matrimonio** (Ext RCivil) - Original.\n2. **Régimen de Carencias Médicas - Habilitación Progresiva** - Original.\n3. **Régimen de Carencias Odontológicas - Habilitación Progresiva** - Original.\n\n### Afiliación de cónyuges sin obra social:\n1. **Acta de Matrimonio** (Ext RCivil) - Original.\n2. **Régimen de Carencias Médicas - Habilitación Progresiva** - Original.\n3. **Régimen de Carencias Odontológicas - Habilitación Progresiva** - Original.\n\n### Afiliación de ex cónyuges:\n1. **Sentencia firme de divorcio** - Original.\n2. **Régimen de Carencias Médicas - Habilitación Progresiva** - Original.\n3. **Régimen de Carencias Odontológicas - Habilitación Progresiva** - Original.\n\nEs importante que toda la documentación esté escaneada y en formato PDF para su presentación. Para más detalles, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del cónyuge sin obra social. La re...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/66b3e7f8-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/66b3e7f8-fdcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué trámite se utiliza para habilitar a alguien a ver la credencial digital de otro familiar?",
+    "answer": "El trámite que se utiliza para habilitar a alguien a ver la credencial digital de otro familiar es la \"Asignación de Representante del Familiar (Acceso a Credencial Digital)\". \n\n### Requisitos:\n- El afiliado titular obligatorio debe solicitar la asignación de un representante para un familiar a su cargo.\n- El representante puede ser o no un afiliado a la APROSS.\n\n### Consideraciones:\n- Este trámite permite al representante gestionar trámites o acompañar en la atención médica del familiar.\n\nPara situaciones particulares, se recomienda formular consultas a la casilla de correo electrónico: afiliaciones.apross@cba.gov.ar.",
+    "sources": [
+      {
+        "snippet": "Title: ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la asignación de un representante de algún familiar a su c...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/00811aa7-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/00811aa7-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d5f3100d-06cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/91dcafa1-0bcc-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HERMANOS SOLTEROS, CON O SIN DISCAPACIDAD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/91dcafa1-0bcc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/036b9492-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE PADRES CON RECURSOS PROPIOS O OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/036b9492-03cc-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Hay restricción de prestaciones para la afiliación de ex cónyuges?",
+    "answer": "Sí, para la afiliación de ex cónyuges a APROSS se aplica un régimen de restricción inicial y no permanente de prestaciones. Esta afiliación requiere un aporte adicional y no necesita renovación.\n\n**Requisitos para la afiliación de ex cónyuges:**\n1. **Ciudadano Digital**: Tener una cuenta verificada nivel 2.\n2. **Documentación a presentar**:\n   - Sentencia firme de divorcio (original).\n   - Régimen de carencias médicas - habilitación progresiva (si corresponde).\n   - Régimen de carencias odontológicas - habilitación progresiva (si corresponde).\n\nEl alta debe ser solicitada por el Titular. Para más información, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su cónyuge con obra social, dentro de su grupo familiar. El alta debe ser ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/2acfcc93-02cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/2acfcc93-02cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro menor, hasta los 21 años , sin aporte adicional y sin la aplicación del régimen de restricción inici...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e35799a1-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS Y MENORES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e35799a1-f9cb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Se puede usar el mismo trámite para afiliar a cualquier familiar?",
+    "answer": "No, no se puede usar el mismo trámite para afiliar a cualquier familiar. Cada tipo de afiliación tiene requisitos específicos:\n\n1. **Afiliación a APROSS de hijos o hijastros mayores e incapacitados para el trabajo o con discapacidad**:\n   - Permite afiliar a hijos o hijastros sin obra social.\n   - Requiere renovación bianual.\n   - Aportes afiliatorios se actualizan trimestralmente.\n\n2. **Afiliación a APROSS de hijos o hijastros mayores, no estudiantes o con obra social**:\n   - Permite afiliar a hijos o hijastros mayores no estudiantes.\n   - No requiere renovación.\n   - Aportes afiliatorios se actualizan trimestralmente.\n\n3. **Afiliación a APROSS de madrastra/padrastro**:\n   - Permite afiliar a un progenitor afín (madrastra o padrastro).\n   - No requiere renovación.\n   - Aportes afiliatorios se actualizan trimestralmente.\n\n4. **Baja de la afiliación de familiar a cargo**:\n   - Permite solicitar la baja de un familiar a cargo.\n   - La solicitud debe ser hecha por el Titular.\n   - Si se solicita antes del quinto día hábil del mes, no habrá descuento en el próximo recibo.\n\nPara más información o para realizar un trámite específico, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro, sin obra social, con discapacidad o que se encuentra incapacitado para el trabajo. Se trata de una ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/fb6ba352-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES E INCAPACITADOS PARA EL TRABAJO O CON DISCAPACIDAD, SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb6ba352-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio afiliar a su hijo/a o hijastro/a mayor no estudiante o con obra social dentro de su grupo familiar. Se trata de una afil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE MADRASTRA/PADRASTRO\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar a su progenitor afín dentro del su grupo familiar. El alta debe ser solicitada por el Ti...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d5f3100d-06cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular....",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/5311625a-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Cómo afecta el momento del mes en el que se solicita la baja de un familiar?",
+    "answer": "La solicitud de baja de la afiliación de un familiar a cargo debe ser realizada antes del quinto día hábil del mes. Si se cumple con este plazo, el Titular no verá un descuento de aporte por su familiar en el próximo recibo de haberes. \n\nEn resumen:\n\n- **Plazo para solicitar la baja**: Antes del quinto día hábil del mes.\n- **Consecuencia de cumplir con el plazo**: No habrá descuento de aporte en el próximo recibo de haberes.\n\nSi necesitas más información, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular....",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/5311625a-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: IMPORTANTE: Si el trámite se realiza a partir del quinto mes de embarazo se pierde el pago retroactivo. Cabe resaltar que, a los fines de simplificar el trámite...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/e375f660-b1b0-ee11-baa9-005056a1885b.json",
+        "title": "ASIGNACIÓN PRENATAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e375f660-b1b0-ee11-baa9-005056a1885b"
+      },
+      {
+        "snippet": "Title: ASIGNACIÓN POR NACIMIENTO Y ALTA DE PAGO SALARIO FAMILIAR\n\nDescription: Solicitud de pago de una suma de dinero por el nacimiento de un hijo del agente y de la asignación familiar por hijo que ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/fb973c88-b1b0-ee11-baa9-005056a1885b.json",
+        "title": "ASIGNACIÓN POR NACIMIENTO Y ALTA DE PAGO SALARIO FAMILIAR",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb973c88-b1b0-ee11-baa9-005056a1885b"
+      },
+      {
+        "snippet": "Title: ASIGNACIÓN POR ADOPCIÓN Y ALTA DE PAGO SALARIO FAMILIAR\n\nDescription: La Asignación por Adopción consistirá en el pago de una suma única de dinero, que se abonará al/la trabajador/a en el mes e...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/b9f291ad-b1b0-ee11-baa9-005056a1885b.json",
+        "title": "ASIGNACIÓN POR ADOPCIÓN Y ALTA DE PAGO SALARIO FAMILIAR",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/b9f291ad-b1b0-ee11-baa9-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué significa \"régimen de carencias médicas - habilitación progresiva\"?",
+    "answer": "No tengo información específica sobre el \"régimen de carencias médicas - habilitación progresiva\". Te recomiendo que consultes directamente con la oficina gubernamental correspondiente para obtener detalles precisos sobre este tema.",
+    "sources": [
+      {
+        "snippet": "Description: Busca que las personas con discapacidad puedan lograr y mantener la máxima independencia, capacidad física, mental, social vocacional, además de la inclusión y participación plena en todo...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/22493f39-7eeb-ee11-bd45-005056a190ff.json",
+        "title": "PROGRAMA DE SERVICIOS A LA PERSONAS CON DISCAPACIDAD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/22493f39-7eeb-ee11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué documentación presentar?: Nombre Descripción Original DNI (Copia) Fotocopia del DNI /LE / LC del paciente. Si Certificado Médico Certificado Médico con firma y sello, con vigencia menor a 6 seis ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/c173dc74-bfea-ee11-baab-005056a1885b.json",
+        "title": "CERTIFICADO ÚNICO DE DISCAPACIDAD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c173dc74-bfea-ee11-baab-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS (CON CARENCIA)\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar, con carencias a su nieto dentro de su grupo familiar. El alta debe ser solicitada por...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e7217759-05cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE NIETOS (CON CARENCIA)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e7217759-05cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Description: El Programa Federal Incluir Salud es un programa nacional, que busca el fortalecimiento de la atención sanitaria de los ciudadanos de la provincia de Córdoba en el servicio público de sal...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/f112197c-bbf5-ee11-baab-005056a1885b.json",
+        "title": "PROGRAMA FEDERAL INCLUIR SALUD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/f112197c-bbf5-ee11-baab-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué ocurre si no se presenta la renovación de una afiliación sin aporte adicional?",
+    "answer": "Si no se presenta la renovación de una afiliación sin aporte adicional, ocurrirá lo siguiente:\n\n1. La afiliación continuará vigente, pero con un aporte adicional hasta que el afiliado titular complete la renovación o solicite la baja afiliatoria.\n2. Los aportes afiliatorios que se devenguen serán a mes completo y se actualizarán trimestralmente.\n\nEs importante realizar la renovación en el plazo establecido para evitar costos adicionales. Para más detalles, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional de su hijo o hijastro estudiante sin obra social. Se trata de un trá...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/da1dca1c-fccb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE HIJOS o HIJASTROS SOLTEROS, MAYORES (HASTA 26 AÑOS), ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/da1dca1c-fccb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O SU CÓNYUGE/CONVIVIENTE\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin apor...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/51229902-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O SU CÓNYUGE/CONVIVIENTE",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/51229902-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del cónyuge sin obra social. La re...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/66b3e7f8-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/66b3e7f8-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: RENOVACIÓN DE AFILIACIÓN DE PADRES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado Titular Obligatorio la renovación de la afiliación sin aporte adicional del progenitor sin recursos propios ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/7d4bd195-51cb-ee11-bd43-005056a190ff.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE PADRES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7d4bd195-51cb-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué tipo de vínculo se necesita acreditar para afiliar a un abuelo?",
+    "answer": "No tengo información específica sobre el tipo de vínculo que se necesita acreditar para afiliar a un abuelo. Te recomiendo que consultes directamente con la oficina gubernamental correspondiente para obtener detalles precisos sobre este trámite.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE ABUELOS\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar a su abuelo/a dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n\n¿Qué otro da...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/8777b6d5-04cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE ABUELOS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8777b6d5-04cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS (CON CARENCIA)\n\nDescription: Permite al Afiliado Titular Obligatorio afiliar, con carencias a su nieto dentro de su grupo familiar. El alta debe ser solicitada por...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e7217759-05cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE NIETOS (CON CARENCIA)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e7217759-05cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro, sin obra social, con discapacidad o que se encuentra incapacitado para el trabajo. Se trata de una ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/fb6ba352-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES E INCAPACITADOS PARA EL TRABAJO O CON DISCAPACIDAD, SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb6ba352-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su nieto recién nacido dentro de su grupo familiar, sin la apli...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/563a36b9-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE NIETOS RECIEN NACIDOS SIN CARENCIAS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/563a36b9-fecb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Es posible afiliar a un familiar sin obra social sin realizar aporte adicional?",
+    "answer": "Sí, es posible afiliar a un familiar sin obra social sin realizar aporte adicional en ciertos casos. A continuación, se detallan las condiciones:\n\n1. **Progenitor o cónyuge sin obra social**:\n   - El afiliado titular obligatorio puede afiliar a su progenitor o cónyuge sin obra social dentro de su grupo familiar.\n   - Esta afiliación no requiere aporte adicional y no se aplica el régimen de restricción inicial y no permanente de prestaciones.\n   - Requiere renovación anual.\n\n2. **Hijos o hijastros mayores incapacitados**:\n   - Se puede afiliar a un hijo o hijastro mayor, sin obra social, que esté incapacitado para el trabajo o tenga discapacidad.\n   - Esta afiliación también es sin aporte adicional y no se aplica el régimen de restricción inicial y no permanente de prestaciones.\n   - Requiere renovación bianual.\n\n**Requisitos para realizar la afiliación**:\n- Tener una cuenta verificada de Ciudadano Digital (Nivel 2).\n- Adjuntar la documentación requerida escaneada y en formato PDF.\n\nSi necesitas más información o detalles específicos, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "Title: AFILIACION A APROSS DE PADRES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, del progenitor sin obra social y a su cargo dentro de su...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/cab67fab-fbcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE PADRES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/cab67fab-fbcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Afiliado Titular Obligatorio afiliar a su hijo/a o hijastro/a mayor no estudiante o con obra social dentro de su grupo familiar. Se trata de una afil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su hijo o hijastro, sin obra social, con discapacidad o que se encuentra incapacitado para el trabajo. Se trata de una ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/fb6ba352-fecb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES E INCAPACITADOS PARA EL TRABAJO O CON DISCAPACIDAD, SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/fb6ba352-fecb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL\n\nDescription: Permite al Afiliado titular Obligatorio la afiliación, sin aporte adicional, de su cónyuge sin obra social dentro de su grupo famil...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d16444fb-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CÓNYUGES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d16444fb-f9cb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué contacto se sugiere para casos particulares de credencial digital?",
+    "answer": "Para casos particulares de credencial digital, se sugiere comunicarse al teléfono 011-59858600, Int. 6195 / 6194. Para consultas o dudas sobre temas técnicos relacionados con la firma digital, este es el contacto indicado.",
+    "sources": [
+      {
+        "snippet": "Normativa vigente: https://www.argentina.gob.ar/modernizacion/firmadigital/normativaaconti Para consultas o dudas sobre estos temas técnicos se deberá comunicar al teléfono 011-59858600 Int. 6195 / 61...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/db2038f7-f371-ef11-baab-005056a1885b.json",
+        "title": "FIRMA DIGITAL CON TOKEN - EMPLEADOS PUBLICOS Y PROVEEDORES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db2038f7-f371-ef11-baab-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: ¿Que otro dato debe tenerse en cuenta?Se debe completar el formulario de la siguiente manera: o Ingresar los datos personales como figuran en el DNI. o Ingresar...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/db2038f7-f371-ef11-baab-005056a1885b.json",
+        "title": "FIRMA DIGITAL CON TOKEN - EMPLEADOS PUBLICOS Y PROVEEDORES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db2038f7-f371-ef11-baab-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Se debe completar el formulario de la siguiente manera: o Ingresar los datos personales como figuran en el DNI. o Ingresar un correo personal. o Elegir como Aut...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/18d2569b-da28-ef11-baab-005056a1885b.json",
+        "title": "FIRMA DIGITAL POR HARDWARE - PERSONA HUMANA",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/18d2569b-da28-ef11-baab-005056a1885b"
+      },
+      {
+        "snippet": "que instale el Driver de su Token y los certificados AC RAIZ y AC ONTI en su equipo. Tutorial: https://www.argentina.gob.ar/modernizacion/firmadigital/descargas-tutoriales Normativa vigente: https://w...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/db2038f7-f371-ef11-baab-005056a1885b.json",
+        "title": "FIRMA DIGITAL CON TOKEN - EMPLEADOS PUBLICOS Y PROVEEDORES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db2038f7-f371-ef11-baab-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué nivel de cuenta es necesario para subir documentación escaneada?",
+    "answer": "Para subir documentación escaneada, es necesario tener una cuenta verificada de nivel 2 en Ciudadano Digital. \n\nSi necesitas más información o detalles específicos, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/51229902-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O SU CÓNYUGE/CONVIVIENTE",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/51229902-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/92c33191-f6cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O DE SU CÓNYUGE/CONVIVIENTE",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/92c33191-f6cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e35799a1-f9cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS Y MENORES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e35799a1-f9cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/7ad2428b-fccb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACION DE AFILIACION DEDE HIJOS o HIJASTROS MAYORES E INCAPACITADOS PARA EL TRABAJO O CON DISCAPACIDAD, SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/7ad2428b-fccb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué documento se solicita para probar un divorcio en trámites de afiliación?",
+    "answer": "Para probar un divorcio en trámites de afiliación, se solicita la siguiente documentación:\n\n1. **Sentencia firme de divorcio**: Este documento debe ser presentado en original.\n\nEs importante que la documentación esté en formato escaneado y en PDF si se realiza la presentación de manera digital. Para más detalles, se recomienda consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "copia la Sentencia que decreta la Separación Personal o Divorcio con vista de la documentación original. 5) Viudo: Fotocopia de Certificado de defunción del cónyuge, con vista del original. 6) Del Gru...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE DESARROLLO SOCIAL Y PROMOCIÓN DEL EMPLEO/d6c5d1b4-31cc-ee11-bd43-005056a190ff.json",
+        "title": "DECLARACIÓN JURADA-PROGRAMA LO TENGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d6c5d1b4-31cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "Title: AFILIACION A APROSS DE EX CÓNYUGES\n\nDescription: Permite al Afiliado Titular Obligatorio la afiliación de su ex cónyuge dentro de su grupo familiar. El alta debe ser solicitada por el Titular.\n...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/c9589ee7-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE EX CÓNYUGES",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/c9589ee7-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "no se haya formalizado el cambio de domicilio en el documento de identidad. d) Otras causas que determine la Autoridad de Aplicación. 4.- DOCUMENTACIÓN EXIGIDA 1) Documento de Identidad: Fotocopia de ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE DESARROLLO SOCIAL Y PROMOCIÓN DEL EMPLEO/d6c5d1b4-31cc-ee11-bd43-005056a190ff.json",
+        "title": "DECLARACIÓN JURADA-PROGRAMA LO TENGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d6c5d1b4-31cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: Ser heredero del asegurado y que este no haya designado beneficiario y/o que el beneficiario designado se encuentre previamente fallecido al asegurado Ser mayor de 18 años...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/03165a10-e4ab-ee11-baa9-005056a1885b.json",
+        "title": "PAGO SEGURO DE VIDA/ DENUNCIA POR FALLECIMIENTO SIN BENEFICIARIO DESIGNADO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/03165a10-e4ab-ee11-baa9-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Se puede acceder a los trámites desde cualquier navegador o requiere app específica?",
+    "answer": "No se menciona en el contexto proporcionado si se puede acceder a los trámites desde cualquier navegador o si se requiere una aplicación específica. Te recomiendo consultar directamente con la oficina gubernamental correspondiente para obtener información precisa sobre este tema.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Firma Digital Remota: • El trámite se realiza con turno que se debe gestionarse a través de: Para Capital: 0800 888 1234 (Opción 1 y opción 5) Para el interior:...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/8689fb99-442a-ef11-bd45-005056a190ff.json",
+        "title": "FIRMA DIGITAL REMOTA - PERSONA HUMANA",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8689fb99-442a-ef11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: 1.Para iniciar un trámite deberá estar registrado como Ciudadano Digital Nivel 2 en: https://ciudadanodigital.cba.gov.ar/ 2. Habiéndose logueado con su usuario ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/db37c47c-bfcd-ef11-baab-005056a1885b.json",
+        "title": "INSPECCIÓN TÉCNICA DE EMBARCACIÓN DEPORTIVA",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/db37c47c-bfcd-ef11-baab-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: Contar con un teléfono inteligente (smartphone) Contar con una cuenta de correo electrónico personal asociada al teléfono inteligente Instalar previamente en el teléfono u...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/8689fb99-442a-ef11-bd45-005056a190ff.json",
+        "title": "FIRMA DIGITAL REMOTA - PERSONA HUMANA",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/8689fb99-442a-ef11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Firma Digital Remota: • El trámite se realiza con turno que se debe gestionarse a través de: Turnero Digital turnero.cba.gov.ar • Seleccionar el Tramite: Firma ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/64a764d7-2669-ef11-baab-005056a1885b.json",
+        "title": "Firma Digital Remota para Empleados públicos o Proveedores del estado",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/64a764d7-2669-ef11-baab-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué significa que un trámite es \"personal e intransferible\"?",
+    "answer": "Un trámite que es \"personal e intransferible\" significa que solo la persona a la que le corresponde puede realizarlo y no puede ser delegado a otra persona. Esto implica que el interesado debe presentarse en persona para llevar a cabo el procedimiento.\n\nSi necesitas más información sobre requisitos o procedimientos específicos, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Quién puede hacerlo?: Personal e Intransferible",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/3d9df526-c3f1-ee11-bd45-005056a190ff.json",
+        "title": "RED PROVINCIAL DE REHABILITACIÓN",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/3d9df526-c3f1-ee11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Quién puede hacerlo?: Personal e Intransferible",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE SEGURIDAD/68057a49-88f2-ee11-bd45-005056a190ff.json",
+        "title": "REGISTRO PROVINCIAL DE INVESTIGACIONES DE SALUD",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/68057a49-88f2-ee11-bd45-005056a190ff"
+      },
+      {
+        "snippet": "¿Quién puede hacerlo?: Personal e Intransferible",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/0d175436-f8cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS SOLTEROS, MAYORES, ESTUDIANTES Y SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/0d175436-f8cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Quién puede hacerlo?: Personal e Intransferible",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/cab67fab-fbcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE PADRES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/cab67fab-fbcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué beneficio otorga el acceso a la credencial digital de un familiar?",
+    "answer": "El acceso a la credencial digital de un familiar permite al representante gestionar trámites o acompañar en la atención médica del familiar. Este acceso es útil para facilitar la visualización de la información relacionada con la afiliación y los servicios de salud del familiar a cargo.\n\nPara obtener este beneficio, el afiliado titular debe solicitar la asignación de un representante, quien puede ser o no un afiliado a la APROSS. \n\nSi necesitas más información o tienes situaciones particulares, se recomienda contactar a la casilla de correo electrónico: afiliaciones.apross@cba.gov.ar.",
+    "sources": [
+      {
+        "snippet": "Title: ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la asignación de un representante de algún familiar a su c...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/00811aa7-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "ASIGNACIÓN DE REPRESENTANTE DEL FAMILIAR (ACCESO A CREDENCIAL DIGITAL)",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/00811aa7-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "Title: BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO\n\nDescription: Permite al Afiliado Titular Obligatorio solicitar la baja afiliatoria de su familiar a cargo. La baja debe ser solicitada por el Titular....",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/5311625a-0ccc-ee11-baaa-005056a1885b.json",
+        "title": "BAJA DE LA AFILIACIÓN DE FAMILIAR A CARGO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/5311625a-0ccc-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Permite al Titular Obligatorio afiliar a su conviviente sin obra social dentro de su grupo familiar. Se trata de una afiliación sin aporte adicional y sin la ap...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/e4e3587a-facb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE CONVIVIENTES SIN OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/e4e3587a-facb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/d5f3100d-06cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE MADRASTRA/PADRASTRO",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/d5f3100d-06cc-ee11-bd43-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Cuántas veces debe subirse la misma documentación en el trámite de asignación de representante?",
+    "answer": "No tengo información específica sobre cuántas veces debe subirse la misma documentación en el trámite de asignación de representante. Te recomiendo consultar directamente con la oficina gubernamental correspondiente para obtener detalles precisos sobre este procedimiento.",
+    "sources": [
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Luego de que el solicitante haya iniciado el trámite, la solicitud será derivada a la jurisdicción competente para su tratamiento. En caso de ser representante ...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/79d69ca5-fdae-ee11-bd42-005056a190ff.json",
+        "title": "SOLICITUDES DE PERMISO DE USO/ COMODATO DE INMUEBLE - PERSONA HUMANA - LEY 10580 - DEC. REG. 927/19 RES. 1130/19.",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/79d69ca5-fdae-ee11-bd42-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: - Luego de que el donante haya iniciado el trámite, la solicitud será derivada a la jurisdicción competente para su tratamiento. - En caso de ser representante/...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/cad38710-01af-ee11-baa9-005056a1885b.json",
+        "title": "OFERTA DE DONACIÓN DE INMUEBLE A FAVOR DE LA PROVINCIA - PERSONA HUMANA - LEY 10580 - DEC. REG. 927/19 RES. 1130/19.",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/cad38710-01af-ee11-baa9-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué documentación presentar?: Nombre Descripción Original Formulario de Presupuesto y Planificación Didactica No get_app Formulario de Supervisión de Sede No get_app\n\n¿Quién puede hacerlo?: Represent...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/MINISTERIO DE DESARROLLO SOCIAL Y PROMOCIÓN DEL EMPLEO/64b08bdb-2519-f011-bd48-005056a190ff.json",
+        "title": "SOLICITUD DE APROBACIÓN DE TRAYECTO FORMATIVO IFP PUBLICAS",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/64b08bdb-2519-f011-bd48-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué otro dato debe tenerse en cuenta?: Luego de que el solicitante haya iniciado el e-trámite, la solicitud será derivada a la jurisdicción competente para su tratamiento. En caso de ser representant...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/SECRETARÍA GENERAL DE LA GOBERNACIÓN/92fe9b60-fdae-ee11-bd42-005056a190ff.json",
+        "title": "SOLICITUD DE PERMISO DE USO/ COMODATO DE INMUEBLE. PERSONA JURÍDICA - LEY 10580 - DEC. REG. 927/19 RES. 1130/19.",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/92fe9b60-fdae-ee11-bd42-005056a190ff"
+      }
+    ],
+    "error": null
+  },
+  {
+    "question": "¿Qué tipo de escaneo se requiere para los documentos solicitados?",
+    "answer": "Para los documentos solicitados en los trámites de afiliación y renovación de afiliación de menores en guarda o tutela a cargo del titular o su cónyuge/conviviente, se requiere que la documentación sea escaneada y presentada en formato PDF.\n\nSi necesitas más detalles sobre el tipo de escaneo o cualquier otro requisito específico, te recomiendo consultar directamente con la oficina gubernamental correspondiente.",
+    "sources": [
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/51229902-fdcb-ee11-baaa-005056a1885b.json",
+        "title": "RENOVACIÓN DE AFILIACIÓN DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O SU CÓNYUGE/CONVIVIENTE",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/51229902-fdcb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/92c33191-f6cb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE MENORES EN GUARDA O TUTELA A CARGO DEL TITULAR O DE SU CÓNYUGE/CONVIVIENTE",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/92c33191-f6cb-ee11-baaa-005056a1885b"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/036b9492-03cc-ee11-bd43-005056a190ff.json",
+        "title": "AFILIACION A APROSS DE PADRES CON RECURSOS PROPIOS O OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/036b9492-03cc-ee11-bd43-005056a190ff"
+      },
+      {
+        "snippet": "¿Qué necesito para hacerlo?: CIUDADANO DIGITAL - CUENTA VERIFICADA NIVEL 2 exit_to_app Ver detalle Documentación a adjuntar scaneada y en formato pdf.\n\n¿Qué documentación presentar?: Nombre Descripció...",
+        "source": "/home/damian/git/up-nlp-tpi/rag_flask/docs/APROSS/97692440-ffcb-ee11-baaa-005056a1885b.json",
+        "title": "AFILIACION A APROSS DE HIJOS o HIJASTROS MAYORES, NO ESTUDIANTES O CON OBRA SOCIAL",
+        "url": "https://cidi.cba.gov.ar/portal-publico/tramite/97692440-ffcb-ee11-baaa-005056a1885b"
+      }
+    ],
+    "error": null
+  }
+]

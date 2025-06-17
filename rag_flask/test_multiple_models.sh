@@ -5,20 +5,24 @@ set -e  # Salir si hay error
 
 PORT=5000
 API_URL="http://localhost:$PORT"
-QUESTIONS_FILE="test_questions.txt"
+TEST_DIR="test"
+RESULTS_DIR="$TEST_DIR/results"
 
-# Si no existe el archivo de preguntas, lo creamos con preguntas por defecto
-if [ ! -f "$QUESTIONS_FILE" ]; then
-  echo "Creando archivo de preguntas de ejemplo..."
-  cat > "$QUESTIONS_FILE" << EOF
-¿Qué necesito para obtener un certificado de antecedentes?
-¿Dónde puedo tramitar un certificado de antecedentes?
-¿Tiene costo obtener un certificado de antecedentes?
-¿Necesito sacar turno para tramitar un certificado de antecedentes?
-¿Puedo enviar a otra persona a tramitar mi certificado de antecedentes?
-EOF
-  echo "Archivo $QUESTIONS_FILE creado."
-fi
+# Función para limpiar procesos al salir
+cleanup() {
+    echo "Limpiando procesos..."
+    # Matar cualquier proceso de Python que esté usando el puerto
+    pkill -f "python app.py" || true
+    # Matar cualquier proceso de Python que esté ejecutando test_questions.py
+    pkill -f "python test/test_questions.py" || true
+    echo "Limpieza completada"
+}
+
+# Registrar la función de limpieza para que se ejecute al salir
+trap cleanup EXIT
+
+# Crear directorio de resultados si no existe
+mkdir -p "$RESULTS_DIR"
 
 # Función para ejecutar pruebas
 run_test() {
@@ -52,9 +56,10 @@ run_test() {
   echo "Esperando a que el servidor esté listo..."
   sleep 5
   
-  # Ejecutar pruebas
+  # Ejecutar pruebas usando test_questions.py
   echo "Ejecutando pruebas..."
-  python test_models.py --model-name "$model_name" --questions-file "$QUESTIONS_FILE" --api-url "$API_URL"
+  RESULTS_FILE="$RESULTS_DIR/${model_name}_results.json"
+  python "$TEST_DIR/test_questions.py" --output "$RESULTS_FILE" --api-url "$API_URL"
   
   # Detener el servidor
   echo "Deteniendo servidor (PID: $SERVER_PID)..."
@@ -113,7 +118,8 @@ fi
 # Tests de HuggingFace (si están instaladas las dependencias)
 if pip list | grep -q "transformers"; then
   check_dependencies "huggingface"
-  run_test "huggingface_flan_t5" "huggingface" "google/flan-t5-base" "huggingface" "BAAI/bge-small-en-v1.5"
+  # Using a smaller, open model that doesn't require authentication
+  run_test "huggingface_opt" "huggingface" "facebook/opt-1.3b" "huggingface" "BAAI/bge-small-en-v1.5"
 else
   echo "Omitiendo pruebas de HuggingFace (dependencias no instaladas)"
 fi
@@ -121,5 +127,5 @@ fi
 echo ""
 echo "=========================================="
 echo "TODAS LAS PRUEBAS COMPLETADAS"
-echo "Revisa las carpetas 'results_*' para ver los resultados de cada prueba."
+echo "Los resultados se han guardado en $RESULTS_DIR/"
 echo "==========================================" 
