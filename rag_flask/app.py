@@ -3,8 +3,11 @@ import argparse
 from flask import Flask, request, jsonify, render_template_string
 from dotenv import load_dotenv
 import traceback
+from flask_cors import CORS
+import json
+from pathlib import Path
 
-from rag_chain import load_rag_chain
+from rag_chain import load_rag_chain, ModelValidationError
 from model_providers import list_available_providers
 
 load_dotenv()  # Loads OPENAI_API_KEY and other vars from .env if present
@@ -16,7 +19,16 @@ DEFAULT_EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "openai")
 DEFAULT_EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", None)
 
 app = Flask(__name__)
-rag_chain = None  # Initialize lazily to avoid slow startup
+CORS(app)
+
+# Global variables for model configuration
+llm_provider = DEFAULT_LLM_PROVIDER
+llm_model = DEFAULT_LLM_MODEL
+embedding_provider = DEFAULT_EMBEDDING_PROVIDER
+embedding_model = DEFAULT_EMBEDDING_MODEL
+
+# Global RAG pipeline
+rag_pipeline = None
 
 # Simple HTML documentation for the API - Note the double curly braces for CSS
 API_DOCS = """
@@ -184,119 +196,381 @@ API_DOCS = """
 """
 
 def get_rag_chain():
-    global rag_chain
-    if rag_chain is None:
+    global rag_pipeline
+    if rag_pipeline is None:
         # Initialize with configured providers and models
-        rag_chain = load_rag_chain(
-            llm_provider=app.config['LLM_PROVIDER'],
-            llm_model=app.config['LLM_MODEL'],
-            embedding_provider=app.config['EMBEDDING_PROVIDER'],
-            embedding_model=app.config['EMBEDDING_MODEL']
+        rag_pipeline = load_rag_chain(
+            llm_provider=llm_provider,
+            llm_model=llm_model,
+            embedding_provider=embedding_provider,
+            embedding_model=embedding_model
         )
-    return rag_chain
+    return rag_pipeline
 
-@app.route('/', methods=['GET'])
-def index():
-    # Add current configuration to the documentation
-    formatted_docs = API_DOCS.format(
-        llm_provider=app.config['LLM_PROVIDER'],
-        llm_model=app.config['LLM_MODEL'] or "Default",
-        embedding_provider=app.config['EMBEDDING_PROVIDER'],
-        embedding_model=app.config['EMBEDDING_MODEL'] or "Default"
-    )
-    return render_template_string(formatted_docs)
-
-@app.route('/health', methods=['GET'])
-def health():
-    return jsonify({'status': 'ok'})
-
-@app.route('/config', methods=['GET'])
-def config():
-    return jsonify({
-        'llm': {
-            'provider': app.config['LLM_PROVIDER'],
-            'model': app.config['LLM_MODEL']
+@app.route('/')
+def home():
+    """Documentación mejorada de la API con especificación clara de modelos"""
+    docs = {
+        "title": "Asistente RAG - Trámites de Córdoba",
+        "description": "API de Generación Aumentada por Recuperación para consultas gubernamentales",
+        "version": "2.0.0",
+        "improvements": [
+            "✅ Preprocessing optimizado para Transformers (sin remoción de stopwords/tildes)",
+            "✅ Chunking inteligente basado en modelo de embedding",
+            "✅ Validación automática de consistencia de modelos",
+            "✅ Metadatos detallados para troubleshooting",
+            "✅ Documentación clara de especificación de modelos"
+        ],
+        "endpoints": {
+            "GET /": "Esta documentación",
+            "GET /health": "Estado del servicio y validación de modelos",
+            "GET /config": "Configuración completa del sistema (LLM + Embeddings + Chunking)",
+            "GET /providers": "Proveedores disponibles de modelos",
+            "GET /system-info": "Información detallada del sistema para debugging",
+            "POST /ask": "Realizar consulta (incluye info del sistema en respuesta)"
         },
-        'embeddings': {
-            'provider': app.config['EMBEDDING_PROVIDER'],
-            'model': app.config['EMBEDDING_MODEL']
+        "model_architecture": {
+            "embedding_model": {
+                "purpose": "Búsqueda de similaridad en vector store",
+                "current": f"{embedding_provider}:{embedding_model or 'default'}",
+                "note": "DEBE ser el mismo para indexación y consulta"
+            },
+            "llm_model": {
+                "purpose": "Generación de respuestas basadas en contexto recuperado", 
+                "current": f"{llm_provider}:{llm_model or 'default'}",
+                "note": "Independiente del modelo de embedding"
+            }
+        },
+        "usage": {
+            "curl_example": f"""
+curl -X POST http://localhost:5000/ask \\
+     -H 'Content-Type: application/json' \\
+     -d '{{"message": "¿Qué necesito para obtener un certificado de antecedentes?"}}'
+            """.strip(),
+            "response_includes": [
+                "answer: Respuesta generada por el LLM",
+                "sources: Documentos fuente recuperados",
+                "system_info: Información del sistema (modelos, chunking, etc.)"
+            ]
         }
-    })
+    }
+    return jsonify(docs)
 
-@app.route('/providers', methods=['GET'])
+@app.route('/health')
+def health():
+    """Estado del servicio con validación completa de modelos"""
+    global rag_pipeline
+    
+    try:
+        # Intentar inicializar o verificar el pipeline
+        if rag_pipeline is None:
+            rag_pipeline = load_rag_chain(
+                llm_provider=llm_provider,
+                llm_model=llm_model,
+                embedding_provider=embedding_provider,
+                embedding_model=embedding_model
+            )
+        
+        # Obtener información del sistema
+        system_info = rag_pipeline.get_system_info()
+        
+        return jsonify({
+            "status": "healthy",
+            "message": "✅ Servicio operativo con validación de modelos exitosa",
+            "model_validation": "passed",
+            "embedding_consistency": "verified",
+            "system_ready": True,
+            "models": {
+                "embedding": {
+                    "provider": system_info["embedding_model_info"]["provider"],
+                    "model": system_info["embedding_model_info"]["model"],
+                    "usage": system_info["embedding_model_info"]["usage"]
+                },
+                "llm": {
+                    "provider": system_info["llm_model_info"]["provider"], 
+                    "model": system_info["llm_model_info"]["model"],
+                    "usage": system_info["llm_model_info"]["usage"]
+                }
+            },
+            "performance_metrics": {
+                "total_chunks": system_info["total_chunks"],
+                "chunk_strategy": system_info["chunking_strategy"],
+                "preprocessing": system_info["preprocessing_strategy"]
+            }
+        })
+        
+    except ModelValidationError as e:
+        return jsonify({
+            "status": "unhealthy",
+            "message": "❌ Error de validación de modelos",
+            "error": str(e),
+            "model_validation": "failed",
+            "system_ready": False,
+            "action_required": "Verificar configuración de modelos o recrear índice"
+        }), 500
+        
+    except Exception as e:
+        return jsonify({
+            "status": "unhealthy", 
+            "message": "❌ Error en inicialización del servicio",
+            "error": str(e),
+            "system_ready": False
+        }), 500
+
+@app.route('/config')
+def config():
+    """Configuración completa del sistema con especificación detallada de modelos"""
+    global rag_pipeline
+    
+    base_config = {
+        "runtime_configuration": {
+            "llm_provider": llm_provider,
+            "llm_model": llm_model or f"{llm_provider}_default",
+            "embedding_provider": embedding_provider,
+            "embedding_model": embedding_model or f"{embedding_provider}_default"
+        },
+        "model_specifications": {
+            "embedding_model": {
+                "purpose": "Vector similarity search in document index",
+                "responsibility": "Convert text queries and documents to vectors for retrieval",
+                "consistency_requirement": "MUST match model used during indexing",
+                "provider": embedding_provider,
+                "model": embedding_model or "default"
+            },
+            "llm_model": {
+                "purpose": "Generate responses based on retrieved context",
+                "responsibility": "Process retrieved documents + user query → final answer",
+                "independence": "Can be different from embedding model",
+                "provider": llm_provider,
+                "model": llm_model or "default"
+            }
+        }
+    }
+    
+    # Agregar información del índice si el pipeline está disponible
+    if rag_pipeline:
+        try:
+            system_info = rag_pipeline.get_system_info()
+            base_config["index_configuration"] = {
+                "chunking_strategy": system_info["chunking_strategy"],
+                "preprocessing_strategy": system_info["preprocessing_strategy"],
+                "total_chunks": system_info["total_chunks"],
+                "embedding_model_verified": system_info["embedding_model_info"]
+            }
+        except Exception as e:
+            base_config["index_configuration"] = {
+                "status": "error",
+                "message": str(e)
+            }
+    
+    return jsonify(base_config)
+
+@app.route('/system-info')
+def system_info():
+    """Información detallada del sistema para debugging y análisis"""
+    global rag_pipeline
+    
+    if not rag_pipeline:
+        try:
+            rag_pipeline = load_rag_chain(
+                llm_provider=llm_provider,
+                llm_model=llm_model,
+                embedding_provider=embedding_provider,
+                embedding_model=embedding_model
+            )
+        except Exception as e:
+            return jsonify({
+                "error": "Pipeline no disponible",
+                "message": str(e),
+                "action": "Verificar configuración y recrear índice si es necesario"
+            }), 500
+    
+    try:
+        detailed_info = rag_pipeline.get_system_info()
+        
+        # Agregar información adicional de debugging
+        detailed_info["pipeline_status"] = {
+            "initialized": True,
+            "vector_store_loaded": True,
+            "models_validated": True
+        }
+        
+        detailed_info["technical_details"] = {
+            "chunking_rationale": "Tamaño optimizado basado en ventana de contexto del modelo de embedding",
+            "preprocessing_rationale": "Sin remoción de stopwords/tildes - apropiado para Transformers",
+            "validation_strategy": "Metadatos guardados durante indexación para verificar consistencia"
+        }
+        
+        return jsonify(detailed_info)
+        
+    except Exception as e:
+        return jsonify({
+            "error": "Error obteniendo información del sistema",
+            "message": str(e)
+        }), 500
+
+@app.route('/providers')
 def providers():
-    return jsonify(list_available_providers())
+    """Información actualizada de proveedores disponibles"""
+    return jsonify({
+        "llm_providers": {
+            "openai": {
+                "name": "OpenAI", 
+                "description": "GPT models (requires API key)",
+                "models": ["gpt-4o-mini", "gpt-4", "gpt-3.5-turbo"],
+                "usage": "Generación de respuestas finales"
+            },
+            "ollama": {
+                "name": "Ollama",
+                "description": "Local models through Ollama",
+                "models": ["mistral", "llama2", "codellama"],
+                "usage": "Generación local sin dependencias externas"
+            },
+            "huggingface": {
+                "name": "HuggingFace",
+                "description": "HuggingFace models",
+                "models": ["google/flan-t5-xxl", "microsoft/DialoGPT-medium"],
+                "usage": "Modelos open-source"
+            }
+        },
+        "embedding_providers": {
+            "openai": {
+                "name": "OpenAI",
+                "description": "OpenAI embedding models",
+                "models": ["text-embedding-3-large", "text-embedding-3-small", "text-embedding-ada-002"],
+                "optimal_chunk_size": "512 tokens",
+                "usage": "Búsqueda de similaridad en vector store"
+            },
+            "ollama": {
+                "name": "Ollama", 
+                "description": "Local embedding models",
+                "models": ["nomic-embed-text", "all-minilm"],
+                "optimal_chunk_size": "256-384 tokens",
+                "usage": "Embeddings locales sin API"
+            },
+            "huggingface": {
+                "name": "HuggingFace",
+                "description": "HuggingFace embedding models",
+                "models": ["BAAI/bge-large-en-v1.5", "sentence-transformers/all-MiniLM-L6-v2"],
+                "optimal_chunk_size": "256-512 tokens",
+                "usage": "Embeddings open-source"
+            }
+        },
+        "configuration_note": "El modelo de embedding DEBE ser consistente entre indexación y consulta. El LLM puede ser independiente.",
+        "chunking_optimization": "Los tamaños de chunk se ajustan automáticamente según el modelo de embedding elegido."
+    })
 
 @app.route('/ask', methods=['POST'])
 def ask():
-    data = request.get_json(force=True, silent=True) or {}
-    question = data.get('message') or data.get('question')
-    
-    if not question:
-        return jsonify({'error': 'JSON payload must contain "message" or "question"'}), 400
+    """Endpoint principal para consultas con información completa del sistema"""
+    global rag_pipeline
     
     try:
-        # Lazy load RAG chain on first request
-        chain = get_rag_chain()
+        # Validar entrada
+        data = request.get_json()
+        if not data or 'message' not in data:
+            return jsonify({
+                "error": "Formato inválido",
+                "message": "Se requiere campo 'message' en JSON"
+            }), 400
         
-        # Process the query
-        result = chain(question)
+        question = data['message']
+        if not question.strip():
+            return jsonify({
+                "error": "Consulta vacía",
+                "message": "La consulta no puede estar vacía"
+            }), 400
         
-        answer = result.get('result') or result.get('answer')
-        sources = []
+        # Inicializar pipeline si es necesario
+        if rag_pipeline is None:
+            rag_pipeline = load_rag_chain(
+                llm_provider=llm_provider,
+                llm_model=llm_model,
+                embedding_provider=embedding_provider,
+                embedding_model=embedding_model
+            )
         
-        # Extract source information if available
-        if 'source_documents' in result and result['source_documents']:
-            sources = [
+        # Procesar consulta
+        result = rag_pipeline(question)
+        
+        # Formatear respuesta con información completa
+        response = {
+            "answer": result["result"],
+            "sources": [
                 {
-                    'source': d.metadata.get('source', ''),
-                    'title': d.metadata.get('title', ''),
-                    'url': d.metadata.get('url', ''),
-                    'snippet': d.page_content[:200] + '...' if len(d.page_content) > 200 else d.page_content
+                    "source": doc.metadata.get("source", ""),
+                    "title": doc.metadata.get("title", ""),
+                    "url": doc.metadata.get("url", ""),
+                    "snippet": doc.page_content[:200] + "..." if len(doc.page_content) > 200 else doc.page_content
                 }
-                for d in result.get('source_documents', [])
-            ]
+                for doc in result["source_documents"]
+            ],
+            "system_info": {
+                "models_used": {
+                    "embedding": {
+                        "provider": result["system_info"]["embedding_model_info"]["provider"],
+                        "model": result["system_info"]["embedding_model_info"]["model"],
+                        "purpose": "Búsqueda de documentos relevantes"
+                    },
+                    "llm": {
+                        "provider": result["system_info"]["llm_model_info"]["provider"],
+                        "model": result["system_info"]["llm_model_info"]["model"], 
+                        "purpose": "Generación de respuesta final"
+                    }
+                },
+                "retrieval_info": {
+                    "chunks_retrieved": len(result["source_documents"]),
+                    "total_chunks_available": result["system_info"]["total_chunks"],
+                    "chunking_strategy": result["system_info"]["chunking_strategy"]
+                },
+                "fallback_used": result.get("fallback_used", False)
+            }
+        }
         
+        return jsonify(response)
+        
+    except ModelValidationError as e:
         return jsonify({
-            'answer': answer, 
-            'sources': sources
-        })
-    
-    except Exception as exc:
-        app.logger.error(f"Error processing query: {str(exc)}\n{traceback.format_exc()}")
-        return jsonify({'error': str(exc)}), 500
+            "error": "Error de validación de modelos",
+            "message": str(e),
+            "action_required": "Verificar configuración de modelos o recrear índice"
+        }), 500
+        
+    except Exception as e:
+        return jsonify({
+            "error": "Error procesando consulta",
+            "message": str(e)
+        }), 500
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='Run the RAG Flask API with configurable models')
-    parser.add_argument('--llm-provider', type=str, default=DEFAULT_LLM_PROVIDER,
-                        help='LLM provider (openai, ollama, huggingface)')
-    parser.add_argument('--llm-model', type=str, default=DEFAULT_LLM_MODEL,
-                        help='Specific LLM model to use')
-    parser.add_argument('--embedding-provider', type=str, default=DEFAULT_EMBEDDING_PROVIDER,
-                        help='Embedding provider (openai, ollama, huggingface)')
-    parser.add_argument('--embedding-model', type=str, default=DEFAULT_EMBEDDING_MODEL,
-                        help='Specific embedding model to use')
-    parser.add_argument('--port', type=int, default=int(os.getenv('PORT', 5000)),
-                        help='Port to run the server on')
-    parser.add_argument('--debug', action='store_true', default=bool(os.getenv('FLASK_DEBUG', False)),
-                        help='Run in debug mode')
+    parser = argparse.ArgumentParser(description='RAG API Server with Model Validation')
+    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host address')
+    parser.add_argument('--port', type=int, default=5000, help='Port number')
+    parser.add_argument('--llm-provider', type=str, default='openai',
+                       help='LLM provider (openai, ollama, huggingface) - usado para GENERACIÓN')
+    parser.add_argument('--llm-model', type=str, default=None,
+                       help='Specific LLM model - usado para GENERACIÓN')
+    parser.add_argument('--embedding-provider', type=str, default='openai',
+                       help='Embedding provider (openai, ollama, huggingface) - usado para BÚSQUEDA')
+    parser.add_argument('--embedding-model', type=str, default=None,
+                       help='Specific embedding model - usado para BÚSQUEDA (DEBE coincidir con indexación)')
     
     return parser.parse_args()
 
 if __name__ == '__main__':
     args = parse_args()
     
-    # Configure the app with model settings
-    app.config.update({
-        'LLM_PROVIDER': args.llm_provider,
-        'LLM_MODEL': args.llm_model,
-        'EMBEDDING_PROVIDER': args.embedding_provider,
-        'EMBEDDING_MODEL': args.embedding_model
-    })
+    # Configurar variables globales
+    llm_provider = args.llm_provider
+    llm_model = args.llm_model
+    embedding_provider = args.embedding_provider
+    embedding_model = args.embedding_model
     
-    # Print configuration
-    print(f"Starting server with:")
-    print(f"  - LLM: {args.llm_provider} {args.llm_model or '(default model)'}")
-    print(f"  - Embeddings: {args.embedding_provider} {args.embedding_model or '(default model)'}")
+    print(f"🚀 Iniciando RAG API Server")
+    print(f"📊 Configuración de modelos:")
+    print(f"   • LLM (generación): {llm_provider}:{llm_model or 'default'}")
+    print(f"   • Embeddings (búsqueda): {embedding_provider}:{embedding_model or 'default'}")
+    print(f"🌐 Servidor disponible en: http://{args.host}:{args.port}")
+    print(f"📖 Documentación en: http://{args.host}:{args.port}/")
     
-    app.run(host='0.0.0.0', port=args.port, debug=args.debug)
+    app.run(host=args.host, port=args.port, debug=True)
