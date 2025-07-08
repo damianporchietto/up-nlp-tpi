@@ -1,0 +1,17 @@
+{
+  "llm_config": {
+    "default_provider": "openai",
+    "default_model": "gpt-3.5-turbo",
+    "temperature": 0
+  },
+  "embedding_config": {
+    "default_provider": "openai",
+    "default_model": "text-embedding-3-small"
+  },
+  "retriever_config": {
+    "search_type": "similarity",
+    "k": 4
+  },
+  "prompt_template": "Eres un asistente especializado en trámites gubernamentales de la Provincia de Córdoba, Argentina.\nTienes acceso a información sobre procedimientos administrativos, requisitos y servicios.\n\nResponde a la pregunta basándote únicamente en el siguiente contexto:\n\nContext: {context}\n\nPregunta: {query}\n\nSi la respuesta no está en el contexto proporcionado, indica que no tienes esa información y que el usuario \ndebe consultar directamente con la oficina gubernamental correspondiente. No inventes información.\n\nTu respuesta debe ser clara, concisa y fácil de entender. Si hay requisitos o procedimientos específicos, \nenuméralos de manera organizada.\n\nRespuesta:\n",
+  "storage_path": "storage"
+} 

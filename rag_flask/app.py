@@ -12,23 +12,17 @@ from model_providers import list_available_providers
 
 load_dotenv()  # Loads OPENAI_API_KEY and other vars from .env if present
 
-# Read model configuration from environment variables
-DEFAULT_LLM_PROVIDER = os.getenv("LLM_PROVIDER", "openai")
-DEFAULT_LLM_MODEL = os.getenv("LLM_MODEL", None)
-DEFAULT_EMBEDDING_PROVIDER = os.getenv("EMBEDDING_PROVIDER", "openai")
-DEFAULT_EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", None)
-
 app = Flask(__name__)
 CORS(app)
 
-# Global variables for model configuration
-llm_provider = DEFAULT_LLM_PROVIDER
-llm_model = DEFAULT_LLM_MODEL
-embedding_provider = DEFAULT_EMBEDDING_PROVIDER
-embedding_model = DEFAULT_EMBEDDING_MODEL
-
 # Global RAG pipeline
 rag_pipeline = None
+
+# --- Variables de configuración (ahora manejadas por los argumentos de la app) ---
+llm_provider = None
+llm_model = None
+embedding_provider = None
+embedding_model = None
 
 # Simple HTML documentation for the API - Note the double curly braces for CSS
 API_DOCS = """
@@ -161,14 +155,14 @@ API_DOCS = """
                     result += '<h3>Fuentes:</h3><ul>';
                     data.sources.forEach(source => {{
                         result += '<li>';
-                        if (source.title) {{
-                            result += '<strong>' + source.title + '</strong><br>';
+                        if (source.metadata && source.metadata.title) {{
+                            result += '<strong>' + source.metadata.title + '</strong><br>';
                         }}
-                        if (source.url) {{
-                            result += '<a href="' + source.url + '" target="_blank">' + source.url + '</a><br>';
+                        if (source.metadata && source.metadata.url) {{
+                            result += '<a href="' + source.metadata.url + '" target="_blank">' + source.metadata.url + '</a><br>';
                         }}
-                        if (source.snippet) {{
-                            result += '<small>' + source.snippet + '...</small>';
+                        if (source.content) {{
+                            result += '<small>' + source.content.substring(0, 250) + '...</small>';
                         }}
                         result += '</li>';
                     }});
@@ -209,7 +203,17 @@ def get_rag_chain():
 
 @app.route('/')
 def home():
-    """Documentación mejorada de la API con especificación clara de modelos"""
+    """Página principal con interfaz web para testing del API"""
+    return render_template_string(API_DOCS.format(
+        llm_provider=llm_provider,
+        llm_model=llm_model or "default",
+        embedding_provider=embedding_provider,
+        embedding_model=embedding_model or "default"
+    ))
+
+@app.route('/api-info')
+def api_info():
+    """Documentación de la API en formato JSON"""
     docs = {
         "title": "Asistente RAG - Trámites de Córdoba",
         "description": "API de Generación Aumentada por Recuperación para consultas gubernamentales",
@@ -222,7 +226,8 @@ def home():
             "✅ Documentación clara de especificación de modelos"
         ],
         "endpoints": {
-            "GET /": "Esta documentación",
+            "GET /": "Interfaz web para testing",
+            "GET /api-info": "Esta documentación en JSON",
             "GET /health": "Estado del servicio y validación de modelos",
             "GET /config": "Configuración completa del sistema (LLM + Embeddings + Chunking)",
             "GET /providers": "Proveedores disponibles de modelos",
@@ -462,115 +467,85 @@ def providers():
 
 @app.route('/ask', methods=['POST'])
 def ask():
-    """Endpoint principal para consultas con información completa del sistema"""
+    """Realiza una consulta al sistema RAG"""
     global rag_pipeline
     
-    try:
-        # Validar entrada
-        data = request.get_json()
-        if not data or 'message' not in data:
-            return jsonify({
-                "error": "Formato inválido",
-                "message": "Se requiere campo 'message' en JSON"
-            }), 400
-        
-        question = data['message']
-        if not question.strip():
-            return jsonify({
-                "error": "Consulta vacía",
-                "message": "La consulta no puede estar vacía"
-            }), 400
-        
-        # Inicializar pipeline si es necesario
-        if rag_pipeline is None:
+    # Asegurarse de que el pipeline esté inicializado
+    if rag_pipeline is None:
+        try:
             rag_pipeline = load_rag_chain(
                 llm_provider=llm_provider,
                 llm_model=llm_model,
                 embedding_provider=embedding_provider,
                 embedding_model=embedding_model
             )
-        
-        # Procesar consulta
+        except ModelValidationError as e:
+            return jsonify({"error": "Error de validación de modelo", "message": str(e)}), 400
+        except Exception as e:
+            return jsonify({"error": "Error de inicialización del pipeline", "message": str(e)}), 500
+
+    if not request.json or 'message' not in request.json:
+        return jsonify({"error": "La consulta debe estar en formato JSON con la clave 'message'"}), 400
+
+    question = request.json['message']
+    
+    try:
         result = rag_pipeline(question)
         
-        # Formatear respuesta con información completa
-        response = {
-            "answer": result["result"],
+        # Formatear respuesta para el cliente
+        return jsonify({
+            "answer": result.get("result", "No se pudo generar una respuesta."),
             "sources": [
                 {
-                    "source": doc.metadata.get("source", ""),
-                    "title": doc.metadata.get("title", ""),
-                    "url": doc.metadata.get("url", ""),
-                    "snippet": doc.page_content[:200] + "..." if len(doc.page_content) > 200 else doc.page_content
-                }
-                for doc in result["source_documents"]
+                    "content": doc.page_content,
+                    "metadata": doc.metadata
+                } for doc in result.get("source_documents", [])
             ],
-            "system_info": {
-                "models_used": {
-                    "embedding": {
-                        "provider": result["system_info"]["embedding_model_info"]["provider"],
-                        "model": result["system_info"]["embedding_model_info"]["model"],
-                        "purpose": "Búsqueda de documentos relevantes"
-                    },
-                    "llm": {
-                        "provider": result["system_info"]["llm_model_info"]["provider"],
-                        "model": result["system_info"]["llm_model_info"]["model"], 
-                        "purpose": "Generación de respuesta final"
-                    }
-                },
-                "retrieval_info": {
-                    "chunks_retrieved": len(result["source_documents"]),
-                    "total_chunks_available": result["system_info"]["total_chunks"],
-                    "chunking_strategy": result["system_info"]["chunking_strategy"]
-                },
-                "fallback_used": result.get("fallback_used", False)
-            }
-        }
-        
-        return jsonify(response)
-        
-    except ModelValidationError as e:
-        return jsonify({
-            "error": "Error de validación de modelos",
-            "message": str(e),
-            "action_required": "Verificar configuración de modelos o recrear índice"
-        }), 500
+            "system_info": result.get("system_info", {})
+        })
         
     except Exception as e:
+        traceback.print_exc()
         return jsonify({
-            "error": "Error procesando consulta",
+            "error": "Error al procesar la consulta",
             "message": str(e)
         }), 500
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='RAG API Server with Model Validation')
-    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host address')
-    parser.add_argument('--port', type=int, default=5000, help='Port number')
-    parser.add_argument('--llm-provider', type=str, default='openai',
-                       help='LLM provider (openai, ollama, huggingface) - usado para GENERACIÓN')
-    parser.add_argument('--llm-model', type=str, default=None,
-                       help='Specific LLM model - usado para GENERACIÓN')
-    parser.add_argument('--embedding-provider', type=str, default='openai',
-                       help='Embedding provider (openai, ollama, huggingface) - usado para BÚSQUEDA')
-    parser.add_argument('--embedding-model', type=str, default=None,
-                       help='Specific embedding model - usado para BÚSQUEDA (DEBE coincidir con indexación)')
+    """Parsea los argumentos de línea de comandos"""
+    parser = argparse.ArgumentParser(description="""
+    Servidor Flask para el sistema RAG de Trámites de Córdoba.
     
+    La configuración de modelos se toma en el siguiente orden de prioridad:
+    1. Argumentos de línea de comandos (ej: --llm-provider openai)
+    2. Variables de entorno (ej: export LLM_PROVIDER=openai)
+    3. Archivo `rag_flask/config/rag_config.json`
+    """)
+    
+    # Cargar defaults desde el entorno o dejarlos en None para que rag_chain use el JSON
+    parser.add_argument("--llm-provider", type=str, default=os.getenv("LLM_PROVIDER"),
+                        help="Proveedor del LLM para generación (e.g., 'openai', 'ollama').")
+    parser.add_argument("--llm-model", type=str, default=os.getenv("LLM_MODEL"),
+                        help="Modelo específico del LLM.")
+    parser.add_argument("--embedding-provider", type=str, default=os.getenv("EMBEDDING_PROVIDER"),
+                        help="Proveedor del modelo de embedding para búsqueda.")
+    parser.add_argument("--embedding-model", type=str, default=os.getenv("EMBEDDING_MODEL"),
+                        help="Modelo específico de embedding.")
+    parser.add_argument("--port", type=int, default=5000, help="Puerto para ejecutar el servidor.")
     return parser.parse_args()
 
 if __name__ == '__main__':
     args = parse_args()
     
-    # Configurar variables globales
+    # Asignar argumentos a las variables globales
     llm_provider = args.llm_provider
     llm_model = args.llm_model
     embedding_provider = args.embedding_provider
     embedding_model = args.embedding_model
-    
-    print(f"🚀 Iniciando RAG API Server")
-    print(f"📊 Configuración de modelos:")
-    print(f"   • LLM (generación): {llm_provider}:{llm_model or 'default'}")
-    print(f"   • Embeddings (búsqueda): {embedding_provider}:{embedding_model or 'default'}")
-    print(f"🌐 Servidor disponible en: http://{args.host}:{args.port}")
-    print(f"📖 Documentación en: http://{args.host}:{args.port}/")
-    
-    app.run(host=args.host, port=args.port, debug=True)
+
+    print("🚀 Iniciando servidor RAG...")
+    print(f"   - LLM: {llm_provider or 'default'}:{llm_model or 'default'}")
+    print(f"   - Embeddings: {embedding_provider or 'default'}:{embedding_model or 'default'}")
+    print(f"   - Puerto: {args.port}")
+
+    app.run(host='0.0.0.0', port=args.port, debug=True)

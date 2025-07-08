@@ -12,27 +12,21 @@ from langchain_community.vectorstores import FAISS
 from model_providers import get_llm_model, get_embeddings_model
 from ingest import ingest_and_build
 
-STORAGE_PATH = Path(__file__).resolve().parent / 'storage'
+# --- Carga de Configuración Externa ---
+CONFIG_PATH = Path(__file__).resolve().parent / 'config' / 'rag_config.json'
 
-# Custom prompt template for government documents
-PROMPT_TEMPLATE = """
-Eres un asistente especializado en trámites gubernamentales de la Provincia de Córdoba, Argentina.
-Tienes acceso a información sobre procedimientos administrativos, requisitos y servicios.
+def load_config() -> Dict[str, Any]:
+    """Carga la configuración desde el archivo JSON."""
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"El archivo de configuración no se encontró en: {CONFIG_PATH}")
+    with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-Responde a la pregunta basándote únicamente en el siguiente contexto:
+config = load_config()
 
-Context: {context}
-
-Pregunta: {query}
-
-Si la respuesta no está en el contexto proporcionado, indica que no tienes esa información y que el usuario 
-debe consultar directamente con la oficina gubernamental correspondiente. No inventes información.
-
-Tu respuesta debe ser clara, concisa y fácil de entender. Si hay requisitos o procedimientos específicos, 
-enuméralos de manera organizada.
-
-Respuesta:
-"""
+# --- Constantes y Plantillas ---
+PROMPT_TEMPLATE = config["prompt_template"]
+STORAGE_PATH = Path(__file__).resolve().parent / config["storage_path"]
 
 
 class ModelValidationError(Exception):
@@ -126,19 +120,31 @@ class RAGPipeline:
             temperature: Temperatura para generación de texto
         """
         
+        # Cargar configuración
+        llm_cfg = config["llm_config"]
+        embedding_cfg = config["embedding_config"]
+        retriever_cfg = config["retriever_config"]
+        
+        # Sobrescribir con argumentos si se proporcionan
+        self.llm_provider = llm_provider or llm_cfg["default_provider"]
+        self.llm_model = llm_model or llm_cfg["default_model"]
+        self.embedding_provider = embedding_provider or embedding_cfg["default_provider"]
+        self.embedding_model = embedding_model or embedding_cfg["default_model"]
+        self.temperature = temperature if temperature != 0 else llm_cfg["temperature"]
+
         print(f"🔧 Inicializando RAG Pipeline:")
-        print(f"   • LLM (generación): {llm_provider}:{llm_model or 'default'}")
-        print(f"   • Embeddings (búsqueda): {embedding_provider}:{embedding_model or 'default'}")
+        print(f"   • LLM (generación): {self.llm_provider}:{self.llm_model or 'default'}")
+        print(f"   • Embeddings (búsqueda): {self.embedding_provider}:{self.embedding_model or 'default'}")
         
         # Inicializar modelo de embeddings
-        self.embeddings = get_embeddings_model(provider=embedding_provider, model_name=embedding_model)
+        self.embeddings = get_embeddings_model(provider=self.embedding_provider, model_name=self.embedding_model)
         
         # Validar o construir el vector store
         if STORAGE_PATH.exists() and any(STORAGE_PATH.iterdir()):
             try:
                 # VALIDACIÓN CRÍTICA: Verificar consistencia de modelos
                 self.index_metadata = validate_embedding_consistency(
-                    STORAGE_PATH, embedding_provider, embedding_model
+                    STORAGE_PATH, self.embedding_provider, self.embedding_model
                 )
                 
                 self.vector_store = FAISS.load_local(
@@ -152,7 +158,7 @@ class RAGPipeline:
             except ModelValidationError as e:
                 print(f"\n{e}")
                 print(f"\n🔄 Recomendación: Recrea el índice con los modelos correctos:")
-                print(f"python ingest.py --provider {embedding_provider} --model {embedding_model or 'default'}")
+                print(f"python ingest.py --provider {self.embedding_provider} --model {self.embedding_model or 'default'}")
                 raise
                 
         else:
@@ -160,24 +166,23 @@ class RAGPipeline:
             # Construir y persistir el vectorstore
             self.vector_store = ingest_and_build(
                 str(STORAGE_PATH), 
-                embedding_provider=embedding_provider, 
-                embedding_model=embedding_model
+                embedding_provider=self.embedding_provider, 
+                embedding_model=self.embedding_model
             )
             
             # Cargar metadatos recién creados
             self.index_metadata = validate_embedding_consistency(
-                STORAGE_PATH, embedding_provider, embedding_model
+                STORAGE_PATH, self.embedding_provider, self.embedding_model
             )
 
-        # Crear retriever con configuración optimizada
-        # k=4 es un buen balance para contexto sin saturar el LLM
+        # Crear retriever con configuración optimizada desde JSON
         self.retriever = self.vector_store.as_retriever(
-            search_type="similarity",
-            search_kwargs={"k": 4}
+            search_type=retriever_cfg["search_type"],
+            search_kwargs={"k": retriever_cfg["k"]}
         )
         
         # Inicializar LLM para generación
-        self.llm = get_llm_model(provider=llm_provider, model_name=llm_model, temperature=temperature)
+        self.llm = get_llm_model(provider=self.llm_provider, model_name=self.llm_model, temperature=self.temperature)
         
         # Crear prompt desde template
         self.prompt = PromptTemplate.from_template(PROMPT_TEMPLATE)
@@ -205,8 +210,8 @@ class RAGPipeline:
                 "usage": "Búsqueda de similaridad en vector store"
             },
             "llm_model_info": {
-                "provider": os.getenv("LLM_PROVIDER", "unknown"),
-                "model": os.getenv("LLM_MODEL", "unknown"),
+                "provider": self.llm_provider,
+                "model": self.llm_model or "default",
                 "usage": "Generación de respuestas basadas en contexto"
             },
             "chunking_strategy": self.index_metadata.get("chunking_config"),
@@ -252,9 +257,9 @@ class RAGPipeline:
 # Convenience loader
 _pipeline: RAGPipeline | None = None
 
-def load_rag_chain(llm_provider: str = "openai", 
+def load_rag_chain(llm_provider: Optional[str] = None,
                   llm_model: Optional[str] = None,
-                  embedding_provider: str = "openai", 
+                  embedding_provider: Optional[str] = None,
                   embedding_model: Optional[str] = None) -> RAGPipeline:
     """
     Carga o inicializa el pipeline RAG con modelos especificados.
@@ -275,26 +280,38 @@ def load_rag_chain(llm_provider: str = "openai",
     """
     global _pipeline
     
+    # Cargar configuración por defecto
+    llm_cfg = config["llm_config"]
+    embedding_cfg = config["embedding_config"]
+
+    # Usar argumentos si se proporcionan, si no, usar config.json, si no, usar variables de entorno
+    final_llm_provider = llm_provider or os.getenv("LLM_PROVIDER", llm_cfg["default_provider"])
+    final_llm_model = llm_model or os.getenv("LLM_MODEL", llm_cfg["default_model"])
+    final_embedding_provider = embedding_provider or os.getenv("EMBEDDING_PROVIDER", embedding_cfg["default_provider"])
+    final_embedding_model = embedding_model or os.getenv("EMBEDDING_MODEL", embedding_cfg["default_model"])
+
     # Si los modelos cambian, recrear el pipeline
     if _pipeline is not None:
-        if (os.getenv("LLM_PROVIDER") != llm_provider or 
-            os.getenv("EMBEDDING_PROVIDER") != embedding_provider):
+        if (os.getenv("LLM_PROVIDER") != final_llm_provider or 
+            os.getenv("LLM_MODEL") != final_llm_model or
+            os.getenv("EMBEDDING_PROVIDER") != final_embedding_provider or
+            os.getenv("EMBEDDING_MODEL") != final_embedding_model):
             _pipeline = None
     
     if _pipeline is None:
         # Guardar configuración actual
-        os.environ["LLM_PROVIDER"] = llm_provider
-        os.environ["EMBEDDING_PROVIDER"] = embedding_provider
-        if llm_model:
-            os.environ["LLM_MODEL"] = llm_model
-        if embedding_model:
-            os.environ["EMBEDDING_MODEL"] = embedding_model
+        os.environ["LLM_PROVIDER"] = final_llm_provider
+        os.environ["EMBEDDING_PROVIDER"] = final_embedding_provider
+        if final_llm_model:
+            os.environ["LLM_MODEL"] = final_llm_model
+        if final_embedding_model:
+            os.environ["EMBEDDING_MODEL"] = final_embedding_model
             
         _pipeline = RAGPipeline(
-            llm_provider=llm_provider,
-            llm_model=llm_model,
-            embedding_provider=embedding_provider,
-            embedding_model=embedding_model
+            llm_provider=final_llm_provider,
+            llm_model=final_llm_model,
+            embedding_provider=final_embedding_provider,
+            embedding_model=final_embedding_model
         )
         
     return _pipeline

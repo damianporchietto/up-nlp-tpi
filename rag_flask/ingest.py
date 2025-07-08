@@ -3,13 +3,24 @@ from preprocessing import preprocess_document
 import os
 import json
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Tuple, Dict, Any
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain.schema import Document
 
 from model_providers import get_embeddings_model
 
+# --- Carga de Configuración Externa ---
+CONFIG_PATH = Path(__file__).resolve().parent / 'config' / 'rag_config.json'
+
+def load_config() -> Dict[str, Any]:
+    """Carga la configuración desde el archivo JSON."""
+    if not CONFIG_PATH.exists():
+        raise FileNotFoundError(f"El archivo de configuración no se encontró en: {CONFIG_PATH}")
+    with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+config = load_config()
 DOCS_DIR = Path(__file__).resolve().parent / 'docs'
 
 def get_optimal_chunk_config(embedding_provider: str, embedding_model: Optional[str] = None) -> Tuple[int, int]:
@@ -96,7 +107,7 @@ def save_chunk_metadata(output_path: str, embedding_provider: str, embedding_mod
     return metadata
 
 
-def ingest_and_build(output_path: str, embedding_provider: str = "openai", embedding_model: Optional[str] = None):
+def ingest_and_build(output_path: str, embedding_provider: Optional[str] = None, embedding_model: Optional[str] = None):
     """
     Carga archivos JSON y construye un vector store FAISS persistente con chunking optimizado.
 
@@ -114,6 +125,17 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
     Returns:
         Vector store FAISS inicializado
     """
+    # Cargar configuración de embedding desde JSON
+    embedding_cfg = config["embedding_config"]
+
+    # Prioridad: 1. Argumentos, 2. config.json
+    final_embedding_provider = embedding_provider or embedding_cfg["default_provider"]
+    final_embedding_model = embedding_model or embedding_cfg["default_model"]
+
+    print(f"🔧 Iniciando proceso de ingesta con configuración:")
+    print(f"   • Proveedor de Embeddings: {final_embedding_provider}")
+    print(f"   • Modelo de Embeddings: {final_embedding_model or 'default'}")
+
     documents = []
     
     # Recursively process all JSON files in subdirectories
@@ -141,7 +163,7 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
             print(f"❌ Error procesando {json_path}: {e}")
     
     # Obtener configuración óptima de chunking basada en el modelo
-    chunk_size, chunk_overlap = get_optimal_chunk_config(embedding_provider, embedding_model)
+    chunk_size, chunk_overlap = get_optimal_chunk_config(final_embedding_provider, final_embedding_model)
     
     # Configurar splitter con parámetros optimizados
     # RecursiveCharacterTextSplitter es óptimo para preservar contexto semántico
@@ -158,8 +180,8 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
     print(f"📈 Promedio de {len(splits)/len(documents):.1f} chunks por documento")
 
     # Crear vector store con el modelo de embedding especificado
-    embeddings = get_embeddings_model(provider=embedding_provider, model_name=embedding_model)
-    print(f"🧠 Usando modelo de embeddings: {embedding_provider}:{embedding_model or 'default'}")
+    embeddings = get_embeddings_model(provider=final_embedding_provider, model_name=final_embedding_model)
+    print(f"🧠 Usando modelo de embeddings: {final_embedding_provider}:{final_embedding_model or 'default'}")
     
     # Crear el directorio de salida si no existe
     Path(output_path).mkdir(parents=True, exist_ok=True)
@@ -168,7 +190,7 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
     vector_store.save_local(output_path)
     
     # Guardar metadatos para validación futura
-    save_chunk_metadata(output_path, embedding_provider, embedding_model, 
+    save_chunk_metadata(output_path, final_embedding_provider, final_embedding_model, 
                        chunk_size, chunk_overlap, len(splits))
     
     print(f"✅ Vector store guardado en: {output_path}")
@@ -179,13 +201,19 @@ def ingest_and_build(output_path: str, embedding_provider: str = "openai", embed
 if __name__ == '__main__':
     import argparse
     
+    # Cargar defaults desde el config file
+    embedding_cfg = config.get("embedding_config", {})
+    default_provider = embedding_cfg.get("default_provider")
+    default_model = embedding_cfg.get("default_model")
+    default_output = config.get("storage_path", "storage")
+
     parser = argparse.ArgumentParser(description='Ingest documents and build vector store with optimized chunking')
-    parser.add_argument('--output', type=str, default='storage', 
-                      help='Output directory for the FAISS index')
-    parser.add_argument('--provider', type=str, default='openai',
-                      help='Embedding provider (openai, ollama, huggingface)')
-    parser.add_argument('--model', type=str, default=None,
-                      help='Specific embedding model to use')
+    parser.add_argument('--output', type=str, default=default_output,
+                      help=f'Output directory for the FAISS index (default: {default_output})')
+    parser.add_argument('--provider', type=str, default=default_provider,
+                      help=f'Embedding provider (openai, ollama, huggingface) (default: {default_provider})')
+    parser.add_argument('--model', type=str, default=default_model,
+                      help=f'Specific embedding model to use (default: {default_model})')
     
     args = parser.parse_args()
     
